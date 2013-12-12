@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+sed -i  '/^============$/,$d' README.md
+echo -e "============\n"  >> README.md
+
+echo "Kali Packages"  >> README.md
+echo "============="  >> README.md
+sed '/^Installed/,/^Description/d' ./dists/kali/main/binary-amd64/Packages >> README.md
+
+echo "Unstable Packages"  >> README.md
+echo "================="  >> README.md
+sed '/^Installed/,/^Description/d' ./dists/unstable/main/binary-amd64/Packages >> README.md

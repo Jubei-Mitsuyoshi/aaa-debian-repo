@@ -1,0 +1,60 @@
+Package: arch-devtools
+Version: 20131107-aaakali
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 3
+Depends: openssh, subversion, rsync, arch-install-scripts
+Recommends: namcap
+Homepage: http://projects.archlinux.org/devtools.git/
+Priority: optional
+Section: devel
+Filename: pool/kali/a/arch-devtools/arch-devtools_20131107-aaakali_all.deb
+Size: 2226
+SHA256: 01c764131acf5e316aac6fa782dc9124a72775ea8c2fe5bf2b42332cfd7df2a6
+SHA1: ce1ee4b274d4c25d596ac6028d020c6374a15dfd
+MD5sum: f7ef4fa6afd2001f8e3ea105255c962c
+Description: archlinux devtools mainly
+ scripts braught to debian to facilitate
+ running a naitive arclinux chroot on a
+ debian system
+
+Package: burpsuit
+Version: 1.5free-aaakali
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 6747
+Depends: default-jre | oracle-java7-installer
+Homepage: http://portswigger.net/burp/
+Priority: optional
+Section: net
+Filename: pool/kali/b/burpsuit/burpsuit_1.5free-aaakali_all.deb
+Size: 6525840
+SHA256: 874af5644ed38e743483b07bdee9c165f4fda59392d63c5e01ff6bffc03a2990
+SHA1: 62beae49d1d4f566f0fd6c97103f3424d694566b
+MD5sum: 8e617529a0d1d2508565142414bae1fa
+Description: Burp Suite is an integrated platform for
+ performing security testing of web applications.
+ Its various tools work seamlessly together to support
+ the entire testing process, from initial mapping and
+ analysis of an application's attack surface, through
+ to finding and exploiting security vulnerabilities.
+ This is the free version
+ WARNING.... THIS IS A CLOSED SOURCE PACKAGE
+ USE AT OWN RISK !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Package: easy-creds
+Version: 3.8+dev-aaakali
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 61
+Depends: isc-dhcp-server | dhcp3-server, hostapd, dsniff, ipcalc, aircrack-ng (>= 1.2-beta2-0kali1), xterm, ettercap-graphical (>= 1:0.8.0-0kali1) | ettercap-text-only (>= 1:0.8.0-0kali1), freeradius (>= 2.1.12+dfsg-1.1kali0), asleap (>= 2.2-1kali5), ferret-sidejack (>= 3.0.1-1kali6), hamster-sidejack (>= 2.0-1kali3), metasploit (>= 4.8.1), sslstrip (>= 0.9-1kali3), screen, mdk3 (>= 6.0-1)
+Homepage: https://github.com/brav0hax/easy-creds
+Priority: optional
+Section: net
+Filename: pool/kali/e/easy-creds/easy-creds_3.8+dev-aaakali_all.deb
+Size: 19540
+SHA256: 562cc4721b02486ada81eb74199eddfea38a5b98800cd2ec05141f10e1af9866
+SHA1: 1d8c9b73e9ffedba612a150634784a4ff743b956
+MD5sum: ec85b39fbc6a4e8a7787a9f355158cca
+Description: This script leverages tools for stealing credentials during a pen test.
+

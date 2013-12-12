@@ -1,0 +1,179 @@
+Package: arch-devtools
+Version: 20131107-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 2
+Depends: openssh, subversion, rsync, arch-install-scripts
+Recommends: namcap
+Homepage: http://projects.archlinux.org/devtools.git/
+Priority: optional
+Section: devel
+Filename: pool/unstable/a/arch-devtools/arch-devtools_20131107-aaa_all.deb
+Size: 2056
+SHA256: c8a98a286bf234c29438fb9b5232f47bda48e888f0a12cc1e8cb3b6650d08d04
+SHA1: 217cc9c759bffc9641f22d2f9ec4f7d1064aed3a
+MD5sum: a07f7dbe81f06828496900fd5df72544
+Description: archlinux devtools mainly
+ scripts braught to debian to facilitate
+ running a naitive arclinux chroot on a
+ debian system
+
+Package: compizconfig-settings-manager
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 4451
+Depends: python (>= 2.7), python (<< 2.8), python-compizconfig (>= 1:0.9.10+13.10.20131011-aaa), python-gtk2
+Recommends: compiz-plugins-default
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/compiz/compizconfig-settings-manager_0.9.10+13.10.20131011-aaa_all.deb
+Size: 766822
+SHA256: 0ce359b81b0a74bf8b1549826b7e8dad7f1e74f38223b6535d5f6fcab17559a9
+SHA1: 9a6b9b32025eecffde0aba6f008720a1e67a4e61
+MD5sum: 6b7282b865d10b513e59b83611d68d67
+Description: Compiz configuration settings manager
+ The OpenCompositing Project brings 3D desktop visual effects that improve
+ usability of the X Window System and provide increased productivity.
+ .
+ This package contains the compizconfig settings manager.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+Python-Version: 2.7
+
+Package: fontconfig-infinality
+Version: 1-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 274
+Depends: freetype-infinality
+Homepage: http://www.infinality.net
+Priority: extra
+Section: fonts
+Filename: pool/unstable/f/fontconfig-infinality/fontconfig-infinality_1-aaa_all.deb
+Size: 24802
+SHA256: 2c1fab173ceeade694fa07c76ab51ce6d1caa79bc377d29a3e1063b8b1a4a960
+SHA1: c47e43065dbcffe433c2a3ca942117ba273f89f2
+MD5sum: aad76af1c982b21d2e454beba66d299e
+Description: Configuration files for freetype-infinality
+ This package include FreeType2 configuration files for modifying settings
+ provided by the infinality patches.
+
+Package: freetype-infinality
+Version: 2.4.9-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 98
+Depends: fontconfig-infinality, libfreetype-infinality6
+Homepage: http://www.infinality.net
+Priority: optional
+Section: misc
+Filename: pool/unstable/f/freetype-infinality/freetype-infinality_2.4.9-aaa_all.deb
+Size: 60612
+SHA256: cabdbb3a5f37cb7f33f8ad44aef257b55022185fc738f8b5bdab97fc8a490ff5
+SHA1: ba3fdc3ac15e0ad8f06bafea6652c70bf9b615fd
+MD5sum: b7ae3418e74625b93d8e474952693ed9
+Description: FreeType 2 font engine, with the Infinality patch set
+ The purpose of these patches is to provide the nicest font rendering of any
+ operating system. The second goal is to provide customization so that the
+ end user is able to adjust the settings to his or her taste.
+
+Package: galternatives
+Version: 0.13.5-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 108
+Depends: python (>= 2.4), python-support (>= 0.90.0), python-glade2
+Priority: optional
+Section: admin
+Filename: pool/unstable/g/galternatives/galternatives_0.13.5-aaa_all.deb
+Size: 25054
+SHA256: 54f859520ffa1f1cd1ed4a394005a90124b84c150dd8a91264d6cbfa4689c9e7
+SHA1: 1eed10300769b07731a57a29af12b0a69c2fa966
+MD5sum: 65c7a53e9a63bdfd3f5057e81a7ddb4a
+Description: graphical setup tool for the alternatives system
+ A GUI to help the system administrator to choose what program
+ should provide a given service.
+ .
+ This is a graphical front-end to the update-alternatives
+ program shipped with dpkg.
+
+Package: gdebi
+Version: 0.9.1-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 139
+Depends: python:any (>= 2.6.6-7~), gdebi-core (= 0.9.1-aaa), gir1.2-gtk-3.0, gir1.2-vte-2.90, python-gi, gnome-icon-theme
+Recommends: libgtk2-perl, shared-mime-info
+Priority: optional
+Section: admin
+Filename: pool/unstable/g/gdebi/gdebi_0.9.1-aaa_all.deb
+Size: 38658
+SHA256: 30c470a4fca3530111ccb5d189b60e2eaf44d842a7728785b3cf9d0cb35c7b51
+SHA1: b4982160586c433b28f6e2bb7bb3e53f67ca59f5
+MD5sum: 243c5c8f5ae8be17ae0f920af885581a
+Description: simple tool to install deb files - GNOME GUI
+ gdebi lets you install local deb packages resolving and installing
+ its dependencies. apt does the same, but only for remote (http, ftp)
+ located packages.
+ .
+ This package contains the graphical user interface.
+ .
+ The *aaa versions of this package have gsku refs and dependencies
+ removed to increase speed and stability, if not running under root
+ privelages please use the regular debian package
+
+Package: gdebi-core
+Source: gdebi
+Version: 0.9.1-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 694
+Depends: python:any (>= 2.6.6-7~), python-apt (>= 0.7.97), python-debian (>= 0.1.15), file
+Suggests: xz-utils | xz-lzma
+Priority: optional
+Section: admin
+Filename: pool/unstable/g/gdebi/gdebi-core_0.9.1-aaa_all.deb
+Size: 126756
+SHA256: 53a06e3d46f3bad607a6a8b1375f0d8ebd0a4b3750752d838710ae9aea629468
+SHA1: f67b232cb6c0c30b5ea9cc0527a0c3c5840ac58e
+MD5sum: 8658db6167eba60b277d929bc8621808
+Description: simple tool to install deb files
+ gdebi lets you install local deb packages resolving and installing
+ its dependencies. apt does the same, but only for remote (http, ftp)
+ located packages.
+ .
+ This package contains the libraries and command-line utility.
+ .
+ The *aaa versions of this package have gsku refs and dependencies
+ removed to increase speed and stability, if not running under root
+ privelages please use the regular debian package
+
+Package: gdebi-kde
+Source: gdebi
+Version: 0.9.1-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 73
+Depends: python:any (>= 2.6.6-7~), gdebi-core (= 0.9.1-aaa), python-kde4, kdebase-runtime | kde-runtime | kdesudo
+Recommends: shared-mime-info
+Priority: optional
+Section: admin
+Filename: pool/unstable/g/gdebi/gdebi-kde_0.9.1-aaa_all.deb
+Size: 28008
+SHA256: 948549cdbdcefc8a8c490a02c1a78eda8c7aab35284046e7fac99d434de484e8
+SHA1: b6c3bacbecfa13f2dfd59e9dd14ef01a6870c7cd
+MD5sum: 79015cac526229c5aff0ef859bf573f7
+Description: simple tool to install deb files - KDE GUI
+ gdebi lets you install local deb packages resolving and installing
+ its dependencies. apt does the same, but only for remote (http, ftp)
+ located packages.
+ .
+ This package contains the KDE user interface.
+ .
+ The *aaa versions of this package have gsku refs and dependencies
+ removed to increase speed and stability, if not running under root
+ privelages please use the regular debian package
+

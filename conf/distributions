@@ -1,0 +1,10 @@
+#config writen by aaa, feel free to modify but dont fuck anything ! 
+Origin: aaa.public.org
+Label: aaa-public-local-repo
+Codename: public
+Suite: unstable
+Version: 1.0
+Architectures: i386 amd64 armel armhf source
+Components: unstable unstablegit kali kaligit
+Description: local custom repo for public packages
+

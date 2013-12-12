@@ -1,0 +1,7 @@
+Archive: unstable
+Version: 1.0
+Component: unstable
+Origin: aaa.public.org
+Label: aaa-public-local-repo
+Architecture: source
+Description: local custom repo for public packages

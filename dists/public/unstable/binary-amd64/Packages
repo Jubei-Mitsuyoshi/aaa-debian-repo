@@ -1,0 +1,652 @@
+Package: arch-devtools
+Version: 20131107-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 2
+Depends: openssh, subversion, rsync, arch-install-scripts
+Recommends: namcap
+Homepage: http://projects.archlinux.org/devtools.git/
+Priority: optional
+Section: devel
+Filename: pool/unstable/a/arch-devtools/arch-devtools_20131107-aaa_all.deb
+Size: 2056
+SHA256: c8a98a286bf234c29438fb9b5232f47bda48e888f0a12cc1e8cb3b6650d08d04
+SHA1: 217cc9c759bffc9641f22d2f9ec4f7d1064aed3a
+MD5sum: a07f7dbe81f06828496900fd5df72544
+Description: archlinux devtools mainly
+ scripts braught to debian to facilitate
+ running a naitive arclinux chroot on a
+ debian system
+
+Package: archlinux-pacman
+Version: 4.1.2-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 3526
+Depends: libarchive13, libc6 (>= 2.14), libcurl3-gnutls (>= 7.16.2), libssl1.0.0 (>= 1.0.0)
+Homepage: https://www.archlinux.org/pacman/
+Priority: optional
+Section: devel
+Filename: pool/unstable/a/archlinux-pacman/archlinux-pacman_4.1.2-aaa_amd64.deb
+Size: 607606
+SHA256: 9b67445637532894a82a5005ee75964985fc9332da9fb92ec7d7d0633b044f38
+SHA1: 522be5541a42450ffe04107072d0f9f5eb24ffbb
+MD5sum: 10d6be7488b2da1b24bd041394b70f2d
+Description: archlinux package manager
+ archlinux and others package manager
+ braught to debian to facilitate running
+ an archlinux chroot on a debian host
+
+Package: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 197
+Depends: compiz-core (>= 1:0.9.10+13.10.20131011-aaa), compiz-plugins-default (>= 1:0.9.10+13.10.20131011-aaa), compiz-gnome, debconf (>= 0.5) | debconf-2.0
+Provides: x-window-manager
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/compiz/compiz_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 195398
+SHA256: 5774349bfd644fe9d3c8d9b53818c03d93c9a2a9238dd03ce347964d37a3067c
+SHA1: 54dbbeebc31789038bf1caede802aed8c7dce1b3
+MD5sum: 72e0bc7d13fa7f1b19abff8226052c4b
+Description: OpenGL window and compositing manager
+ Compiz brings to life a variety of visual effects that make the Linux desktop
+ easier to use, more powerful and intuitive, and more accessible for users
+ with special needs.
+ .
+ This metapackage provides the components necessary for running compiz. It
+ provides the compiz core, a set of standard plugins, a window decorator using
+ the Gtk toolkit and the files necessary to integrate compiz with the GNOME
+ desktop environment
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: compiz-core
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 3608
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.30.0), libglibmm-2.4-1c2a (>= 2.36.2), libice6 (>= 1:1.0.0), libsigc++-2.0-0c2a (>= 2.0.2), libsm6, libstartup-notification0 (>= 0.7), libstdc++6 (>= 4.6), libx11-6, libx11-xcb1, libxcb1, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6 (>= 2:1.2.99.4), libxinerama1, libxml2 (>= 2.6.27), libxrandr2, libxslt1.1 (>= 1.1.25)
+Recommends: compiz-plugins-default
+Replaces: compizconfig-settings-manager (<< 0.9.8)
+Provides: compiz-core-abiversion-20130415
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/compiz/compiz-core_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 813624
+SHA256: e0a4918d165fc57ce0fd6fdb8f602eaf8a24c8225568ac2dfc59e11fa8970ddc
+SHA1: 839c01b53b91b0a55363f0ef8f93c0381b49cb14
+MD5sum: 1e42d77c28b0bd706a7145a263e67532
+Description: OpenGL window and compositing manager
+ Compiz brings to life a variety of visual effects that make the Linux desktop
+ easier to use, more powerful and intuitive, and more accessible for users
+ with special needs.
+ .
+ Compiz combines together a window manager and a composite manager using
+ OpenGL for rendering. A "window manager" allows the manipulation of the
+ multiple applications and dialog windows that are presented on the screen. A
+ "composite manager" allows windows and other graphics to be combined together
+ to create composite images. Compiz achieves its stunning effects by doing
+ both of these functions.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: compiz-dev
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 651
+Depends: compiz-core (= 1:0.9.10+13.10.20131011-aaa), libdecoration0-dev (= 1:0.9.10+13.10.20131011-aaa), compiz-plugins-default (= 1:0.9.10+13.10.20131011-aaa), libgl1-mesa-dev | libgl-dev, libpng-dev, libxcomposite-dev (>= 1:0.3-2), libxfixes-dev (>= 1:4.0.1), libxdamage-dev (>= 1:1.0.3), libxinerama-dev, libxrandr-dev (>= 2:1.1.0.2), libxcursor-dev, libice-dev (>= 1:1.0.1), libsm-dev (>= 1:1.0.1), libstartup-notification0-dev (>= 0.7), libxslt1-dev, libxml2-dev, libx11-xcb-dev, libglib2.0-dev, libglibmm-2.4-dev, libgtk-3-dev
+Suggests: compiz-plugins
+Breaks: compiz-plugins-extra (<< 1:0.9.8), compiz-plugins-main-dev (<< 1:0.9.8)
+Replaces: compiz-dev (<< 1:0.9.8), compiz-plugins-extra (<< 1:0.9.8), compiz-plugins-main-dev (<< 1:0.9.8)
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/compiz/compiz-dev_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 292090
+SHA256: 2b53fa91025f84aeb797db175bd5aaea9881dfd3e06c7fc3835549473f725f96
+SHA1: b656a946c51e23a76e843f99c17fae33528d494e
+MD5sum: eff07a90f610d24b0e48129b1725fb10
+Description: OpenGL window and compositing manager - development files
+ Compiz brings to life a variety of visual effects that make the Linux desktop
+ easier to use, more powerful and intuitive, and more accessible for users
+ with special needs.
+ .
+ This package contains the headers and libraries needed to compile compiz
+ plugins.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: compiz-gnome
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 2995
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.7), libcairo2 (>= 1.2.4), libcompizconfig0, libdecoration0 (>= 1:0.9.8.2), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.28.0), libgtk2.0-0 (>= 2.24.0), libmetacity-private0a (>= 1:2.34.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libwnck22 (>= 2.30.0-3), libx11-6, libxrender1, dconf-gsettings-backend | gsettings-backend, gconf2 (>= 2.28.1-2), compiz-plugins-default (= 1:0.9.10+13.10.20131011-aaa), gsettings-desktop-schemas, gnome-settings-daemon (>= 3.4.2-0ubuntu9) | cinnamon-settings-daemon
+Recommends: python-gconf, gnome-system-monitor
+Breaks: compiz-plugins-main (<= 1:0.9.8), compiz-plugins-main-default (<= 1:0.9.8), compizconfig-backend-gconf (<= 1:0.9.8)
+Replaces: compiz-plugins-main (<= 1:0.9.8), compiz-plugins-main-default (<= 1:0.9.8), compizconfig-backend-gconf (<= 1:0.9.8), libcompizconfig0 (<= 1:0.9.8)
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/compiz/compiz-gnome_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 492908
+SHA256: 57ce12c563670a1aa8267961541dbd0716c4412831e3d62cc084f62e03ee79bb
+SHA1: 28a557d7ca2e2ab3cafd03a6b808d538a1d962c4
+MD5sum: ac53eb3acdd517ff89f598c71914da08
+Description: OpenGL window and compositing manager - GNOME window decorator
+ Compiz brings to life a variety of visual effects that make the Linux desktop
+ easier to use, more powerful and intuitive, and more accessible for users
+ with special needs.
+ .
+ This package contains files needed to integrate compiz with the GNOME desktop
+ environment.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: compiz-plugins
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 7490
+Depends: compiz-core (= 1:0.9.10+13.10.20131011-aaa), compiz-plugins-default (= 1:0.9.10+13.10.20131011-aaa), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.6.0), libdbus-1-3 (>= 1.0.2), libdecoration0 (>= 1:0.9.2.1), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.16.0), libglibmm-2.4-1c2a (>= 2.36.2), libglu1-mesa | libglu1, libgtk2.0-0 (>= 2.8.0), libice6 (>= 1:1.0.0), libjpeg8 (>= 8c), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), librsvg2-2 (>= 2.14.4), libsigc++-2.0-0c2a (>= 2.0.2), libsm6, libstartup-notification0 (>= 0.2), libstdc++6 (>= 4.6), libx11-6, libx11-xcb1, libxcb1, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxinerama1, libxml2 (>= 2.7.4), libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25)
+Breaks: compiz-plugins-extra (<< 1:0.9.8), compiz-plugins-main (<< 1:0.9.8)
+Replaces: compiz-plugins-extra (<< 1:0.9.8), compiz-plugins-main (<< 1:0.9.8), compiz-plugins-main-default (<< 1:0.9.8)
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/compiz/compiz-plugins_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 2069136
+SHA256: 5b862a27ffbb1472e26cae8321daa091d50bb2184316a5f1ab50ef7f6ad92c2b
+SHA1: 2dece13cdc6b06fc8bd08bea5ccea26ffb0ee01f
+MD5sum: 94de8493a8b05f11067be53ccc1f837d
+Description: OpenGL window and compositing manager - plugins
+ Compiz brings to life a variety of visual effects that make the Linux desktop
+ easier to use, more powerful and intuitive, and more accessible for users
+ with special needs.
+ .
+ This package contains the plugins that come with compiz but not officially
+ supported.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: compiz-plugins-default
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 4135
+Depends: compiz-core (= 1:0.9.10+13.10.20131011-aaa), libdecoration0 (= 1:0.9.10+13.10.20131011-aaa), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.16.0), libglibmm-2.4-1c2a (>= 2.36.2), libice6 (>= 1:1.0.0), libpng12-0 (>= 1.2.13-4), libsigc++-2.0-0c2a (>= 2.0.2), libsm6, libstartup-notification0 (>= 0.2), libstdc++6 (>= 4.6), libx11-6, libx11-xcb1, libxcb1, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3 (>= 1:4.0.1), libxi6, libxinerama1, libxml2 (>= 2.7.4), libxrandr2 (>= 4.3), libxrender1, libxslt1.1 (>= 1.1.25)
+Breaks: compiz-plugins (<< 1:0.9.10+13.10.20130828.1), compiz-plugins-main-default (<< 1:0.9.8)
+Replaces: compiz-plugins (<< 1:0.9.10+13.10.20130828.1), compiz-plugins-main-default (<< 1:0.9.8)
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/compiz/compiz-plugins-default_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 933852
+SHA256: 1d0a80f44d65bf9c84567d4cfac58278bf84b4d8104d73e02bb112622e864e16
+SHA1: 78c98445824a487834b90b9186d301b2a2321630
+MD5sum: 4f1ce054e65ac220cb5d2bc66c269a46
+Description: OpenGL window and compositing manager - default plugins
+ Compiz brings to life a variety of visual effects that make the Linux desktop
+ easier to use, more powerful and intuitive, and more accessible for users
+ with special needs.
+ .
+ This package contains the default compiz plugins we activate in ubuntu coming
+ with core compiz.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: compizconfig-settings-manager
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 4451
+Depends: python (>= 2.7), python (<< 2.8), python-compizconfig (>= 1:0.9.10+13.10.20131011-aaa), python-gtk2
+Recommends: compiz-plugins-default
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/compiz/compizconfig-settings-manager_0.9.10+13.10.20131011-aaa_all.deb
+Size: 766822
+SHA256: 0ce359b81b0a74bf8b1549826b7e8dad7f1e74f38223b6535d5f6fcab17559a9
+SHA1: 9a6b9b32025eecffde0aba6f008720a1e67a4e61
+MD5sum: 6b7282b865d10b513e59b83611d68d67
+Description: Compiz configuration settings manager
+ The OpenCompositing Project brings 3D desktop visual effects that improve
+ usability of the X Window System and provide increased productivity.
+ .
+ This package contains the compizconfig settings manager.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+Python-Version: 2.7
+
+Package: cpyrit-cuda
+Version: 0.4.0+git20131223-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 65
+Depends: python (>= 2.7), python (<< 2.8), libc6 (>= 2.14), libcuda1 (>= 270), libssl1.0.0 (>= 1.0.0), zlib1g (>= 1:1.1.4), pyrit (>= 0.4.0-git20131223)
+Recommends: python-scapy (>= 2.0), python-sqlalchemy (>= 0.5.6)
+Suggests: python-psycopg2 | python-pymssql | python-mysqldb
+Homepage: http://code.google.com/p/pyrit/
+Priority: extra
+Section: net
+Filename: pool/unstable/c/cpyrit-cuda/cpyrit-cuda_0.4.0+git20131223-aaa_amd64.deb
+Size: 45710
+SHA256: 81ce8c48b9ba6304092b9fb9f682a76dc009c244c197c9158e709e6dbd5f95f2
+SHA1: eb240e83d54a110d6c063e0992c46e21bd7b6ffb
+MD5sum: 277b1acba73c65e2730c87b3706bbcc4
+Description: This package adds support for nvidia-cuda
+ gpu acceleration to the existing *aaa pyrit packages.
+
+Package: fontconfig-infinality
+Version: 1-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 274
+Depends: freetype-infinality
+Homepage: http://www.infinality.net
+Priority: extra
+Section: fonts
+Filename: pool/unstable/f/fontconfig-infinality/fontconfig-infinality_1-aaa_all.deb
+Size: 24802
+SHA256: 2c1fab173ceeade694fa07c76ab51ce6d1caa79bc377d29a3e1063b8b1a4a960
+SHA1: c47e43065dbcffe433c2a3ca942117ba273f89f2
+MD5sum: aad76af1c982b21d2e454beba66d299e
+Description: Configuration files for freetype-infinality
+ This package include FreeType2 configuration files for modifying settings
+ provided by the infinality patches.
+
+Package: freetype-infinality
+Version: 2.4.9-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 98
+Depends: fontconfig-infinality, libfreetype-infinality6
+Homepage: http://www.infinality.net
+Priority: optional
+Section: misc
+Filename: pool/unstable/f/freetype-infinality/freetype-infinality_2.4.9-aaa_all.deb
+Size: 60612
+SHA256: cabdbb3a5f37cb7f33f8ad44aef257b55022185fc738f8b5bdab97fc8a490ff5
+SHA1: ba3fdc3ac15e0ad8f06bafea6652c70bf9b615fd
+MD5sum: b7ae3418e74625b93d8e474952693ed9
+Description: FreeType 2 font engine, with the Infinality patch set
+ The purpose of these patches is to provide the nicest font rendering of any
+ operating system. The second goal is to provide customization so that the
+ end user is able to adjust the settings to his or her taste.
+
+Package: galternatives
+Version: 0.13.5-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 108
+Depends: python (>= 2.4), python-support (>= 0.90.0), python-glade2
+Priority: optional
+Section: admin
+Filename: pool/unstable/g/galternatives/galternatives_0.13.5-aaa_all.deb
+Size: 25054
+SHA256: 54f859520ffa1f1cd1ed4a394005a90124b84c150dd8a91264d6cbfa4689c9e7
+SHA1: 1eed10300769b07731a57a29af12b0a69c2fa966
+MD5sum: 65c7a53e9a63bdfd3f5057e81a7ddb4a
+Description: graphical setup tool for the alternatives system
+ A GUI to help the system administrator to choose what program
+ should provide a given service.
+ .
+ This is a graphical front-end to the update-alternatives
+ program shipped with dpkg.
+
+Package: gdebi
+Version: 0.9.1-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 139
+Depends: python:any (>= 2.6.6-7~), gdebi-core (= 0.9.1-aaa), gir1.2-gtk-3.0, gir1.2-vte-2.90, python-gi, gnome-icon-theme
+Recommends: libgtk2-perl, shared-mime-info
+Priority: optional
+Section: admin
+Filename: pool/unstable/g/gdebi/gdebi_0.9.1-aaa_all.deb
+Size: 38658
+SHA256: 30c470a4fca3530111ccb5d189b60e2eaf44d842a7728785b3cf9d0cb35c7b51
+SHA1: b4982160586c433b28f6e2bb7bb3e53f67ca59f5
+MD5sum: 243c5c8f5ae8be17ae0f920af885581a
+Description: simple tool to install deb files - GNOME GUI
+ gdebi lets you install local deb packages resolving and installing
+ its dependencies. apt does the same, but only for remote (http, ftp)
+ located packages.
+ .
+ This package contains the graphical user interface.
+ .
+ The *aaa versions of this package have gsku refs and dependencies
+ removed to increase speed and stability, if not running under root
+ privelages please use the regular debian package
+
+Package: gdebi-core
+Source: gdebi
+Version: 0.9.1-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 694
+Depends: python:any (>= 2.6.6-7~), python-apt (>= 0.7.97), python-debian (>= 0.1.15), file
+Suggests: xz-utils | xz-lzma
+Priority: optional
+Section: admin
+Filename: pool/unstable/g/gdebi/gdebi-core_0.9.1-aaa_all.deb
+Size: 126756
+SHA256: 53a06e3d46f3bad607a6a8b1375f0d8ebd0a4b3750752d838710ae9aea629468
+SHA1: f67b232cb6c0c30b5ea9cc0527a0c3c5840ac58e
+MD5sum: 8658db6167eba60b277d929bc8621808
+Description: simple tool to install deb files
+ gdebi lets you install local deb packages resolving and installing
+ its dependencies. apt does the same, but only for remote (http, ftp)
+ located packages.
+ .
+ This package contains the libraries and command-line utility.
+ .
+ The *aaa versions of this package have gsku refs and dependencies
+ removed to increase speed and stability, if not running under root
+ privelages please use the regular debian package
+
+Package: gdebi-kde
+Source: gdebi
+Version: 0.9.1-aaa
+Architecture: all
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 73
+Depends: python:any (>= 2.6.6-7~), gdebi-core (= 0.9.1-aaa), python-kde4, kdebase-runtime | kde-runtime | kdesudo
+Recommends: shared-mime-info
+Priority: optional
+Section: admin
+Filename: pool/unstable/g/gdebi/gdebi-kde_0.9.1-aaa_all.deb
+Size: 28008
+SHA256: 948549cdbdcefc8a8c490a02c1a78eda8c7aab35284046e7fac99d434de484e8
+SHA1: b6c3bacbecfa13f2dfd59e9dd14ef01a6870c7cd
+MD5sum: 79015cac526229c5aff0ef859bf573f7
+Description: simple tool to install deb files - KDE GUI
+ gdebi lets you install local deb packages resolving and installing
+ its dependencies. apt does the same, but only for remote (http, ftp)
+ located packages.
+ .
+ This package contains the KDE user interface.
+ .
+ The *aaa versions of this package have gsku refs and dependencies
+ removed to increase speed and stability, if not running under root
+ privelages please use the regular debian package
+
+Package: libcompizconfig0
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 610
+Depends: compiz-core (= 1:0.9.10+13.10.20131011-aaa), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.12.0), libglibmm-2.4-1c2a (>= 2.36.2), libice6 (>= 1:1.0.0), libprotobuf7, libsigc++-2.0-0c2a (>= 2.0.2), libsm6, libstartup-notification0 (>= 0.2), libstdc++6 (>= 4.1.1), libx11-6, libx11-xcb1, libxcb1, libxcomposite1 (>= 1:0.3-1), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxinerama1, libxml2 (>= 2.7.4), libxrandr2, libxslt1.1 (>= 1.1.25), zlib1g (>= 1:1.1.4)
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/compiz/libcompizconfig0_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 310168
+SHA256: 55cddd4a716166676538faeca5ec8e4c7ca71578071648b46edbcae860617288
+SHA1: 71e84f85f70df9c26d67d31b8c0b11d46c80324e
+MD5sum: 4d0618fb2078d47ef3c05b1f84cdd24f
+Description: Settings library for plugins - OpenCompositing Project
+ The OpenCompositing Project brings 3D desktop visual effects that improve
+ usability of the X Window System and provide increased productivity
+ through plugins and themes contributed by the community giving a
+ rich desktop experience.
+ .
+ This package contains the library for plugins to configure settings.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: libcompizconfig0-dev
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 285
+Depends: libcompizconfig0 (= 1:0.9.10+13.10.20131011-aaa), compiz-dev
+Priority: optional
+Section: libdevel
+Filename: pool/unstable/c/compiz/libcompizconfig0-dev_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 211094
+SHA256: f4835586a6fc6028175978e54f38cbe82b381dbef6d51871975e1f06b1795c34
+SHA1: ade28bad6d81a91ecb578f4c5aa0b4c4c904d50e
+MD5sum: 43dfb45096f875e1a896a81dd3269b04
+Description: Development file for plugin settings - OpenCompositing Project
+ The OpenCompositing Project brings 3D desktop visual effects that improve
+ usability of the X Window System and provide increased productivity
+ through plugins and themes contributed by the community giving a
+ rich desktop experience.
+ .
+ This package contains the headers and development files needed to
+ build plugins with settings support.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: libdecoration0
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 262
+Depends: libc6 (>= 2.4), libx11-6, libxrender1
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/compiz/libdecoration0_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 236170
+SHA256: 8eefb84c07944689cb63e13ec370efc82efc94a0215a12839aadebb06ebf9afa
+SHA1: 044fca0c7871a9bc79945845fd3c2a423ce7bbac
+MD5sum: 6198dc6093862bcab7ccc96f0ed37309
+Description: Compiz window decoration library
+ The window decoration library is responsible for drawing the window borders
+ and title bar of windows managed by Compiz. It is used by window decorators
+ like gtk-window-decorator.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: libdecoration0-dev
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 236
+Depends: libdecoration0 (= 1:0.9.10+13.10.20131011-aaa), libx11-dev, libxrender-dev (>= 1:0.9.1)
+Priority: optional
+Section: libdevel
+Filename: pool/unstable/c/compiz/libdecoration0-dev_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 224566
+SHA256: 699ae21c6444fbc0ab23118529815937f720700f8d662faaeb9735dfaa5eba3b
+SHA1: 9c1df8569bf45f7174d68540438cdcd6c828a48c
+MD5sum: 4a615bb256f78d611aa0481c4fa9193a
+Description: Compiz window decoration library - development files
+ The window decoration library is responsible for drawing the window borders
+ and title bar of windows managed by Compiz. It is used by window decorators
+ like gtk-window-decorator.
+ .
+ This package contains files required for developing window decorators
+ compatible with Compiz.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: libfreetype-infinality6
+Source: freetype-infinality
+Version: 2.4.9-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 759
+Pre-Depends: multiarch-support
+Depends: libc6 (>= 2.14), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: http://www.infinality.net
+Priority: optional
+Section: libs
+Filename: pool/unstable/f/freetype-infinality/libfreetype-infinality6_2.4.9-aaa_amd64.deb
+Size: 335020
+SHA256: fe269899b4c086811d1d6760b3a3b68894015058c13cabf27c7c20b1eef3ba2d
+SHA1: db69a0955ce3fa9f875303ada4c8c732343cb422
+MD5sum: a22ede223191d01dbe54806fec50f7a7
+Description: FreeType 2 font engine, with the Infinality patch set, shared library files
+ The purpose of these patches is to provide the nicest font rendering of any
+ operating system. The second goal is to provide customization so that the
+ end user is able to adjust the settings to his or her taste.
+
+Package: pup-volume-monitor
+Version: 0.1.15-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 449
+Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.2.5), libglib2.0-0 (>= 2.31.8), libudev1 (>= 183)
+Priority: extra
+Section: gnome
+Filename: pool/unstable/p/pup-volume-monitor/pup-volume-monitor_0.1.15-aaa_amd64.deb
+Size: 93178
+SHA256: 471d55b44e8b29e64f9e7d793f3218823599fa215625c2c20d3b8abeb8348b26
+SHA1: b1d8182e40cb1f3b292f4766a33cbe6a38323365
+MD5sum: 301fc4930a1746772c1d0e62a31491ed
+Description: this is the experemental version of
+ a udisks replacement, unlike udevil and cousins
+ it should work with gnome file managers
+
+Package: pyrit
+Version: 0.4.0+git20131223-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 284
+Depends: python (>= 2.7), python (<< 2.8), libc6 (>= 2.14), libpcap0.8 (>= 0.9.8), libssl1.0.0 (>= 1.0.0)
+Recommends: python-scapy (>= 2.0), python-sqlalchemy (>= 0.5.6), cpython-cuda
+Suggests: python-psycopg2 | python-pymssql | python-mysqldb
+Homepage: http://code.google.com/p/pyrit/
+Priority: extra
+Section: net
+Filename: pool/unstable/p/pyrit/pyrit_0.4.0+git20131223-aaa_amd64.deb
+Size: 68432
+SHA256: ec84a4cf342965792e939a414bb6430f2e4283288eb9f876c80bab04e7f68dcd
+SHA1: 42a08e42342c0d91eda68641f50c11ec00ae2a46
+MD5sum: 5c252c19daf3d60e1257d5d48ba6788d
+Description: GPGPU-driven WPA/WPA2-PSK key cracker
+ Pyrit allows one to create massive databases, pre-computing part of the
+ WPA/WPA2-PSK authentication phase in a space-time-tradeoff. Exploiting the
+ computational power of many-core- and other platforms through ATI-Stream,
+ Nvidia CUDA, OpenCL and VIA Padlock, it is currently by far the most powerful
+ attack against one of the world's most used security-protocols.
+ .
+ This package contains the basic version of Pyrit, with support for MMX, SSE2
+ and VIA PADLOCK detected at run-time. Support for non-free technologies such
+ as Nvidia CUDA can be added through extensions, of which cpython-cuda is
+ available
+ .
+ This is the git version of this package, repackaged from debian to aaa standards
+ it now works with the aaa* cpyrit-cuda package to enable gpu accelerated cracking
+
+Package: python-compizconfig
+Source: compiz
+Version: 1:0.9.10+13.10.20131011-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 309
+Depends: python (>= 2.7), python (<< 2.8), libc6 (>= 2.2.5), libcompizconfig0, libpython2.7 (>= 2.7)
+Provides: python2.7-compizconfig
+Priority: optional
+Section: python
+Filename: pool/unstable/c/compiz/python-compizconfig_0.9.10+13.10.20131011-aaa_amd64.deb
+Size: 228424
+SHA256: 67df75de2624b277544f66c9d22bdfd66307adced40188a7e0542ca5d350b75d
+SHA1: 94e55515415afacaf9c2213c0fc697913b8b3716
+MD5sum: a792f8089c69adca730afbceec8426ca
+Description: Compizconfig bindings for python
+ Compiz Fusion is the result of the re-unification of the Beryl-project
+ and the community around the Compiz Window Manager. It seeks to provide
+ an easy and fun-to-use windowing environment, allowing use of the
+ graphics hardware to provide impressive effects, amazing speed and
+ unrivalled usefulness
+ .
+ This package provides python bindings for the compizconfig system.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: timeshift
+Version: 1.2.7-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 499
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libgee2 (>= 0.5.0), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.0), libjson-glib-1.0-0 (>= 0.13.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsoup2.4-1 (>= 2.4.0), libx11-6, rsync, libblkid1
+Homepage: http://teejeetech.blogspot.in/
+Priority: extra
+Section: utils
+Filename: pool/unstable/t/timeshift/timeshift_1.2.7-aaa_amd64.deb
+Size: 130456
+SHA256: 3a9e02d6014747df295a57b31862aea29fc82a3805eadde883edb5d85191db1c
+SHA1: 9cf5c754d54cfb86afb13025567b9d934d67ceec
+MD5sum: ee06a23de190332ad59c3aa2df85efde
+Description: A system restore utility for Linux
+ TimeShift is a system restore utility which takes snapshots
+ of the system at regular intervals. These snapshots can be restored
+ at a later date to undo all changes that were made after the snapshot
+ was taken.
+ .
+ The *aaa versions of this package are specially modified to remove gksu
+ dependencies and repackaged for debian.
+
+Package: xarchiver
+Version: 1:0.5.2+20130119-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 1182
+Depends: libc6 (>= 2.15), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk2.0-0 (>= 2.10.0), libpango-1.0-0 (>= 1.14.0)
+Recommends: bzip2, p7zip-full, unzip, xdg-utils
+Suggests: arj, lhasa, rar, rpm, unrar-free, zip
+Homepage: http://xarchiver.sourceforge.net/
+Priority: optional
+Section: x11
+Filename: pool/unstable/x/xarchiver/xarchiver_0.5.2+20130119-aaa_amd64.deb
+Size: 443216
+SHA256: 662f187c44863b48fffbf89b4cb0af861ba240c77f15bedc50af9e866c696f20
+SHA1: ffda2d42fa0a6f6c80efa3f19338648af3fe2cfc
+MD5sum: 2f81a31514f99121347c6bc25d20e6c5
+Description: GTK+ frontend for most used compression formats
+ Xarchiver is a lightweight desktop independent GTK+ frontend for manipulating
+ 7z, arj, bzip2, gzip, rar, tar, zip, rpm and deb files. It allows you to
+ create archives and add, extract, and delete files from them. Password
+ protected archives in the arj, 7z, rar and zip formats are supported.
+ .
+ The *aaa versions of this pakage are heavily patched to add features ( xz support
+ for one ) and improve stability
+
+Package: xarchiver-dbg
+Source: xarchiver
+Version: 1:0.5.2+20130119-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+Installed-Size: 448
+Depends: xarchiver (= 1:0.5.2+20130119-aaa)
+Homepage: http://xarchiver.sourceforge.net/
+Priority: extra
+Section: debug
+Filename: pool/unstable/x/xarchiver/xarchiver-dbg_0.5.2+20130119-aaa_amd64.deb
+Size: 399286
+SHA256: bef61fed6bfc2f200e5cb190c3c95b8ea5da3ea7ef450af17d5e3c0f4a5559e4
+SHA1: a03fd3aeb872e24b45f8572993395200067c62e3
+MD5sum: d86be7a05b535eb02d7d706e8be77ac7
+Description: debugging symbols for xarchiver
+ Xarchiver is a lightweight desktop independent GTK+ frontend for manipulating
+ 7z, arj, bzip2, gzip, rar, tar, zip, rpm and deb files. It allows you to
+ create archives and add, extract, and delete files from them. Password
+ protected archives in the arj, 7z, rar and zip formats are supported.
+ .
+ This package contains detached debugging symbols.
+
