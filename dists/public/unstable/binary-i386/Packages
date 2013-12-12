@@ -18,6 +18,118 @@ Description: archlinux devtools mainly
  running a naitive arclinux chroot on a
  debian system
 
+Package: cinnamon-common
+Source: cinnamon
+Version: 2.0.14
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 3183
+Depends: dconf-gsettings-backend | gsettings-backend, python
+Breaks: cinnamon (<< 1.7.1)
+Replaces: cinnamon (<< 1.7.1)
+Homepage: http://cinnamon.linuxmint.com
+Priority: optional
+Section: gnome
+Filename: pool/unstable/c/cinnamon/cinnamon-common_2.0.14_all.deb
+Size: 1562378
+SHA256: ed1dbe8f22b3a1b614ac424dbd62ab6b41043a418936f38057eb9670f81b73f0
+SHA1: f0d035ae827c1c8545c7080124029a8ef7d9974f
+MD5sum: 7f4e56a535dd56faea695f372db42df4
+Description: Cinnamon desktop (Common data files)
+ Cinnamon redefines user interactions with the GNOME desktop.
+ In particular, it offers new paradigms for launching applications,
+ accessing documents, and organizing open windows in GNOME. Later, it
+ will introduce a new applets eco-system and offer new solutions for
+ other desktop features, such as notifications and contacts
+ management. Cinnamon is intended to replace functions handled
+ by the GNOME Panel and by the window manager in previous versions of
+ GNOME. Cinnamon has rich visual effects enabled by new
+ graphical technologies.
+ .
+ This package contains the architecture independent files needed by Cinnamon
+
+Package: cinnamon-control-center-data
+Source: cinnamon-control-center
+Version: 2.0.9
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 1414
+Recommends: cinnamon-control-center (>= 2.0.9)
+Conflicts: cinnamon-capplets-data
+Breaks: gnome-power-manager (<< 3.2)
+Replaces: cinnamon-capplets-data, gdm (<< 3.0), gdm3 (<< 3.0), gnome-media-common (<< 2.91), gnome-power-manager (<< 3.2)
+Provides: cinnamon-capplets-data
+Homepage: http://www.github.com/linuxmint/cinnamon-control-center
+Priority: optional
+Section: gnome
+Filename: pool/unstable/c/cinnamon-control-center/cinnamon-control-center-data_2.0.9_all.deb
+Size: 205204
+SHA256: c1156896ae938fb7a627e4570edce1a8515f961de9db629b263df06c4e2c0340
+SHA1: 3df398500ab6607b812536b1d344bda34849a227
+MD5sum: 02e9315483d1ee6cd200b3360b0e8a68
+Description: configuration applets for Cinnamon - data files
+ This package contains data files (icons, pixmaps, locales files) needed by
+ the configuration applets in the cinnamon-control-center package.
+
+Package: cinnamon-desktop-data
+Source: cinnamon-desktop
+Version: 2.0.4
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 665
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: gnome-desktop-data (<< 1:2.32.1-2)
+Replaces: gnome-desktop-data (<< 1:2.32.1-2)
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Filename: pool/unstable/c/cinnamon-desktop/cinnamon-desktop-data_2.0.4_all.deb
+Size: 127752
+SHA256: a1539b97f3dc2f19b40285c1b12c4527156e231c5adbc8d8342eaba25523ef12
+SHA1: b984e416a73a3c81cca3919865c9bc618c615889
+MD5sum: bd27f2c1851c02e9b025fd9dfcd6a50d
+Description: Common files for Cinnamon desktop apps
+ This package includes some files that are shared between several Cinnamon
+ apps (internationalization files).
+
+Package: cinnamon-session-common
+Source: cinnamon-session
+Version: 2.0.6
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 779
+Priority: optional
+Section: gnome
+Filename: pool/unstable/c/cinnamon-session/cinnamon-session-common_2.0.6_all.deb
+Size: 141128
+SHA256: 12f7d06b36018f7fc71214984ad42641e46c7102cde2fc5aa4cff29e02b26863
+SHA1: 871cda94726f3c04b49ebf63c39f7db6292c7a48
+MD5sum: 0fedc1b406af30a8fc2fe1477f9f5cbc
+Description: Cinnamon Session Manager - common files
+ The Cinnamon Session Manager is in charge of starting the core components
+ of the Cinnamon desktop, and applications that should be launched at
+ login time. It also features a way to save and restore currently
+ running applications.
+ .
+ This package contains the translations, data files and startup scripts
+ which are common to the Cinnamon and Cinnamon fallback sessions.
+
+Package: cinnamon-translations
+Version: 2.0.3
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 9317
+Replaces: cinnamon-common
+Priority: optional
+Section: admin
+Filename: pool/unstable/c/cinnamon-translations/cinnamon-translations_2.0.3_all.deb
+Size: 1411528
+SHA256: 115bdd0c81e05fd9519d163de2a89a020b9316fb52d8440b4452534a720a11de
+SHA1: a42710b81fa4435008cc9678f9b2ea74427c0ea1
+MD5sum: 49ddc6b79f1e54b442905d495733fc77
+Description: Translation files for the Cinnamon desktop
+ Translation files for the Cinnamon desktop.
+
 Package: compizconfig-settings-manager
 Source: compiz
 Version: 1:0.9.10+13.10.20131011-aaa
@@ -176,4 +288,46 @@ Description: simple tool to install deb files - KDE GUI
  The *aaa versions of this package have gsku refs and dependencies
  removed to increase speed and stability, if not running under root
  privelages please use the regular debian package
+
+Package: muffin-common
+Source: muffin
+Version: 2.0.5
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 4734
+Depends: dconf-gsettings-backend | gsettings-backend, sgml-base (>= 1.26+nmu2)
+Priority: optional
+Section: misc
+Filename: pool/unstable/m/muffin/muffin-common_2.0.5_all.deb
+Size: 581816
+SHA256: 1922ac1de30e557cc80fd6e641c8894527922a1c04db3fc27c53bb0e79368a2f
+SHA1: 9e83aa53baa8e19a6c2d31eb511c07521b5d91a8
+MD5sum: 8fa7583d0885c405165d15630440c6d9
+Description: shared files for the Muffin window manager
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the shared files.
+
+Package: nemo-data
+Source: nemo
+Version: 2.0.8
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 119
+Depends: dconf-gsettings-backend | gsettings-backend
+Suggests: nemo
+Homepage: http://www.github.com/linuxmint/nemo/
+Priority: optional
+Section: gnome
+Filename: pool/unstable/n/nemo/nemo-data_2.0.8_all.deb
+Size: 29956
+SHA256: 5a80dc1069231d0f40382e601771e7edfa1b00d0a01fd61dda4284885c5a37fa
+SHA1: b35091ce0bfaf7271ec3538d08303fc40591d3bb
+MD5sum: a741b38133c6032514f9e8746d154a85
+Description: data files for nemo
+ Nemo is the official file manager and graphical shell for the
+ Cinnamon desktop.
+ .
+ This package contains pictures, localization files and other data
+ needed by nemo.
 

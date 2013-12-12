@@ -3,25 +3,25 @@ Label: aaa-public-local-repo
 Suite: unstable
 Codename: public
 Version: 1.0
-Date: Thu, 12 Dec 2013 01:10:59 UTC
+Date: Thu, 12 Dec 2013 02:25:56 UTC
 Architectures: i386 amd64 armel armhf
 Components: unstable unstablegit kali kaligit
 Description: local custom repo for public packages
 MD5Sum:
- b4311a2308b55c753acd38f3590a4e50 7079 unstable/binary-i386/Packages
- b43b8f10fd17b18f7fd2eac925d971ae 2474 unstable/binary-i386/Packages.gz
+ d15c74ad7229887d476e61357488879f 12881 unstable/binary-i386/Packages
+ 3dba6856bc2d5a023934a839792384c6 4350 unstable/binary-i386/Packages.gz
  079c04c86e5657908a6d6f58db89e200 173 unstable/binary-i386/Release
- fc7a12df86254a4afccd2b4b0eaa9f43 31681 unstable/binary-amd64/Packages
- f3fdd9031d70d899c927819dd37aae64 8255 unstable/binary-amd64/Packages.gz
+ 80f3c049560f01a7a75f604e9c232f24 67771 unstable/binary-amd64/Packages
+ 85de6de5f099e273dccb4ca660e0d1e2 16952 unstable/binary-amd64/Packages.gz
  087d74b40ac8c466a36aba1854d26367 174 unstable/binary-amd64/Release
- b4311a2308b55c753acd38f3590a4e50 7079 unstable/binary-armel/Packages
- b43b8f10fd17b18f7fd2eac925d971ae 2474 unstable/binary-armel/Packages.gz
+ d15c74ad7229887d476e61357488879f 12881 unstable/binary-armel/Packages
+ 3dba6856bc2d5a023934a839792384c6 4350 unstable/binary-armel/Packages.gz
  d9ab303fa772d9456ba2926e835fbd06 174 unstable/binary-armel/Release
- b4311a2308b55c753acd38f3590a4e50 7079 unstable/binary-armhf/Packages
- b43b8f10fd17b18f7fd2eac925d971ae 2474 unstable/binary-armhf/Packages.gz
+ d15c74ad7229887d476e61357488879f 12881 unstable/binary-armhf/Packages
+ 3dba6856bc2d5a023934a839792384c6 4350 unstable/binary-armhf/Packages.gz
  90c984cfa481e27c05e23872f3db8b3d 174 unstable/binary-armhf/Release
- bd0441a0703e507b31b28fb223945763 18465 unstable/source/Sources
- e9bd322903c7669f18643ea4f8d3fc66 6022 unstable/source/Sources.gz
+ 3811f116db7ab32d6495e93577289c9a 35552 unstable/source/Sources
+ edd8d854486d89d95c573065fb52fc70 10374 unstable/source/Sources.gz
  da6b34bb930c63b6e247943d3cbf971f 175 unstable/source/Release
  d41d8cd98f00b204e9800998ecf8427e 0 unstablegit/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 unstablegit/binary-i386/Packages.gz
@@ -69,20 +69,20 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 kaligit/source/Sources.gz
  f1aac0c7cf60537280eac68378b59423 174 kaligit/source/Release
 SHA1:
- 8a2173689df7f425cb26541b6431e56c531caf64 7079 unstable/binary-i386/Packages
- d364931e8813bcd4f34a8ceb2f0885de1d2ef36f 2474 unstable/binary-i386/Packages.gz
+ 802164b86163792ebf4f04ff7a344bd5cbaad1fe 12881 unstable/binary-i386/Packages
+ 429fba7c03b7f2e37a593f15b238916a87b307f1 4350 unstable/binary-i386/Packages.gz
  c9b4ef0366532ed52bd74943c4d9df46519021cb 173 unstable/binary-i386/Release
- 50c4f74ceaee7379fa9cac7015daaf1eb0f50b03 31681 unstable/binary-amd64/Packages
- 71a90b11db47407e260ea3c9def526e3d1027503 8255 unstable/binary-amd64/Packages.gz
+ b738a772060923a4b6bd3ccc773ec87fb82010ea 67771 unstable/binary-amd64/Packages
+ c05d8120bd96ab6ad47c2d8bdee248eb3275889f 16952 unstable/binary-amd64/Packages.gz
  c8b5c2538c7d389fb13160efe4bb0e5d61c1df2c 174 unstable/binary-amd64/Release
- 8a2173689df7f425cb26541b6431e56c531caf64 7079 unstable/binary-armel/Packages
- d364931e8813bcd4f34a8ceb2f0885de1d2ef36f 2474 unstable/binary-armel/Packages.gz
+ 802164b86163792ebf4f04ff7a344bd5cbaad1fe 12881 unstable/binary-armel/Packages
+ 429fba7c03b7f2e37a593f15b238916a87b307f1 4350 unstable/binary-armel/Packages.gz
  e3e43aa5274e978935484200cfa632d589eafed3 174 unstable/binary-armel/Release
- 8a2173689df7f425cb26541b6431e56c531caf64 7079 unstable/binary-armhf/Packages
- d364931e8813bcd4f34a8ceb2f0885de1d2ef36f 2474 unstable/binary-armhf/Packages.gz
+ 802164b86163792ebf4f04ff7a344bd5cbaad1fe 12881 unstable/binary-armhf/Packages
+ 429fba7c03b7f2e37a593f15b238916a87b307f1 4350 unstable/binary-armhf/Packages.gz
  3d1160b0d8d88ce492728dc805012c5872b71c6e 174 unstable/binary-armhf/Release
- 41877b4ab39835d67912b6bd5c1129e902a173bb 18465 unstable/source/Sources
- e7985b51b31ca9f8362026bf08508eddfe64be96 6022 unstable/source/Sources.gz
+ c516fa62464b7bf01aef904078f45b6771e9a3cc 35552 unstable/source/Sources
+ 1fe53cdbf9f02d05a9319e5b68b63d18e2324567 10374 unstable/source/Sources.gz
  cdb6d6bfabade91a470a4f140dbdd9bba5269dcb 175 unstable/source/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 unstablegit/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 unstablegit/binary-i386/Packages.gz
@@ -130,20 +130,20 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 kaligit/source/Sources.gz
  3801643192fab468b9fc0d23f2cbc6bb877199a8 174 kaligit/source/Release
 SHA256:
- b17023dbee1f8faf2ba2c912722eb1fbc6163b592de7ff4565038810155d9adf 7079 unstable/binary-i386/Packages
- 5440a05b9e23313b5de99d6e71ccd5e59b6084be6ee27f9e78ffb365433dfbb5 2474 unstable/binary-i386/Packages.gz
+ 2fa023fded918a861b95cee58926ecee571f0cd3fd9f0c14cae1db95ecc70f1c 12881 unstable/binary-i386/Packages
+ 0cd233dd0e6b1cff7ff5f018de58202cdba32aeb2af5d174de9546a41564201c 4350 unstable/binary-i386/Packages.gz
  d372efd49bb56dd22732fa7ae73dc7938e0b317d2abae0a105806345482120d9 173 unstable/binary-i386/Release
- 6a9da9c650faacd8c0b58be2ac8c32c2d18fa0bbe41f1902fc2014ecdf3377b7 31681 unstable/binary-amd64/Packages
- 2403b39000ae9d2fc42563f88bfd5225fafe20ed6875c5e7088b847d21b78924 8255 unstable/binary-amd64/Packages.gz
+ 4a7352c7be775c714a6d813d97add0b957e0015f5ab107ad782d9fb22ae29a69 67771 unstable/binary-amd64/Packages
+ fe9ab5277e41bfa973d242e65846d20391d5dbe4afefc75f6afdf460fda8b7ae 16952 unstable/binary-amd64/Packages.gz
  b009d78cf9c49a7312c2b960a10dc922d63e4d1c16d623aa0443912397938f76 174 unstable/binary-amd64/Release
- b17023dbee1f8faf2ba2c912722eb1fbc6163b592de7ff4565038810155d9adf 7079 unstable/binary-armel/Packages
- 5440a05b9e23313b5de99d6e71ccd5e59b6084be6ee27f9e78ffb365433dfbb5 2474 unstable/binary-armel/Packages.gz
+ 2fa023fded918a861b95cee58926ecee571f0cd3fd9f0c14cae1db95ecc70f1c 12881 unstable/binary-armel/Packages
+ 0cd233dd0e6b1cff7ff5f018de58202cdba32aeb2af5d174de9546a41564201c 4350 unstable/binary-armel/Packages.gz
  a90ea4aec938d4574277012b1e75f516424326398875ce13f94d0de8364da3c9 174 unstable/binary-armel/Release
- b17023dbee1f8faf2ba2c912722eb1fbc6163b592de7ff4565038810155d9adf 7079 unstable/binary-armhf/Packages
- 5440a05b9e23313b5de99d6e71ccd5e59b6084be6ee27f9e78ffb365433dfbb5 2474 unstable/binary-armhf/Packages.gz
+ 2fa023fded918a861b95cee58926ecee571f0cd3fd9f0c14cae1db95ecc70f1c 12881 unstable/binary-armhf/Packages
+ 0cd233dd0e6b1cff7ff5f018de58202cdba32aeb2af5d174de9546a41564201c 4350 unstable/binary-armhf/Packages.gz
  00de0cc8d8249d488c554fd6b31f74e51a80842abb7fca598517d65c633ea186 174 unstable/binary-armhf/Release
- ab36dbcb9af40e9621815955204f929b1b438cc36a8e24450ce687b23effe651 18465 unstable/source/Sources
- 81c45ed155f34fbadf4031a92a40d5a343a30acf5cf32854bf053c841a056017 6022 unstable/source/Sources.gz
+ ea4b9e3028b974963c10e753872237131783e3ebdd70a6f76c03b0a98dc1763d 35552 unstable/source/Sources
+ a5f8c4be33b37cfbf24e4ef02bbce8799ce2d46ef83af714604b5174c9606dc8 10374 unstable/source/Sources.gz
  d4082f75ae3658c6bb9182208cf58fc70cae1b55bd830cb02087c294fc475910 175 unstable/source/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 unstablegit/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 unstablegit/binary-i386/Packages.gz

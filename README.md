@@ -96,6 +96,169 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  braught to debian to facilitate running
  an archlinux chroot on a debian host
 
+Package: cinnamon
+Version: 2.0.14
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Cinnamon redefines user interactions with the GNOME desktop.
+ In particular, it offers new paradigms for launching applications,
+ accessing documents, and organizing open windows in GNOME. Later, it
+ will introduce a new applets eco-system and offer new solutions for
+ other desktop features, such as notifications and contacts
+ management. Cinnamon is intended to replace functions handled
+ by the GNOME Panel and by the window manager in previous versions of
+ GNOME. Cinnamon has rich visual effects enabled by new
+ graphical technologies.
+
+Package: cinnamon-bluetooth
+Version: 3.8.2
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ This package contains a configuration module and an applet compatible with GNOME Bluetooth.
+
+Package: cinnamon-common
+Source: cinnamon
+Version: 2.0.14
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+ Cinnamon redefines user interactions with the GNOME desktop.
+ In particular, it offers new paradigms for launching applications,
+ accessing documents, and organizing open windows in GNOME. Later, it
+ will introduce a new applets eco-system and offer new solutions for
+ other desktop features, such as notifications and contacts
+ management. Cinnamon is intended to replace functions handled
+ by the GNOME Panel and by the window manager in previous versions of
+ GNOME. Cinnamon has rich visual effects enabled by new
+ graphical technologies.
+ .
+ This package contains the architecture independent files needed by Cinnamon
+
+Package: cinnamon-control-center
+Version: 2.0.9
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ This package contains configuration applets for the Cinnamon desktop,
+ allowing to set accessibility configuration, desktop fonts, keyboard
+ and mouse properties, sound setup, desktop theme and background, user
+ interface properties, screen resolution, and other Cinnamon parameters.
+
+Package: cinnamon-control-center-data
+Source: cinnamon-control-center
+Version: 2.0.9
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+ This package contains data files (icons, pixmaps, locales files) needed by
+ the configuration applets in the cinnamon-control-center package.
+
+Package: cinnamon-dbg
+Source: cinnamon
+Version: 2.0.14
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Cinnamon redefines user interactions with the GNOME desktop.
+ In particular, it offers new paradigms for launching applications,
+ accessing documents, and organizing open windows in GNOME. Later, it
+ will introduce a new applets eco-system and offer new solutions for
+ other desktop features, such as notifications and contacts
+ management. Cinnamon is intended to replace functions handled
+ by the GNOME Panel and by the window manager in previous versions of
+ GNOME. Cinnamon has rich visual effects enabled by new
+ graphical technologies.
+ .
+ This package contains the debugging symbols.
+
+Package: cinnamon-desktop-data
+Source: cinnamon-desktop
+Version: 2.0.4
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+ This package includes some files that are shared between several Cinnamon
+ apps (internationalization files).
+
+Package: cinnamon-screensaver
+Version: 2.0.3
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ cinnamon-screensaver is a screen saver and locker that aims to have simple,
+ sane and secure defaults, and be well integrated with the Cinnamon desktop.
+ .
+ It is designed to support, among other things:
+ .
+  * the ability to lock down configuration settings
+  * translation into other languages
+  * user switching
+Original-Maintainer: Guilherme de S. Pastore <gpastore@debian.org>
+
+Package: cinnamon-session
+Version: 2.0.6
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ The Cinnamon Session Manager is in charge of starting the core components
+ of the Cinnamon desktop, and applications that should be launched at
+ login time. It also features a way to save and restore currently
+ running applications.
+ .
+ This package contains the binaries for the Cinnamon Session Manager, but
+ no startup scripts. It is meant for those willing to start
+ cinnamon-session by hand with the components of their choice, and for
+ applications such as MDM that use cinnamon-session internally.
+
+Package: cinnamon-session-common
+Source: cinnamon-session
+Version: 2.0.6
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+ The Cinnamon Session Manager is in charge of starting the core components
+ of the Cinnamon desktop, and applications that should be launched at
+ login time. It also features a way to save and restore currently
+ running applications.
+ .
+ This package contains the translations, data files and startup scripts
+ which are common to the Cinnamon and Cinnamon fallback sessions.
+
+Package: cinnamon-settings-daemon
+Version: 2.0.8
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ This package contains the daemon which is responsible for setting the
+ various parameters of a Cinnamon session and the applications that run
+ under it. It handles the following kinds of settings:
+ .
+  * Keyboard: layout, accessibility options, shortcuts, media keys
+  * Clipboard management
+  * Theming: background, icons, GTK+ applications
+  * Cleanup of unused files
+  * Mouse: cursors, speed, accessibility options
+  * Startup of other daemons: screensaver, sound daemon
+  * Typing break
+ .
+ It also sets various application settings through X resources and
+ freedesktop.org XSETTINGS.
+
+Package: cinnamon-settings-daemon-dev
+Source: cinnamon-settings-daemon
+Version: 2.0.8
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ This package contains header files required to build applications that
+ communicate with the Cinnamon settings daemon over D-Bus.
+
+Package: cinnamon-translations
+Version: 2.0.3
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+ Translation files for the Cinnamon desktop.
+
+Package: cjs
+Version: 2.0.0
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Makes it possible for applications to use all of GNOME's platform
+ libraries using the Javascript language. It's mainly based on the
+ Mozilla javascript engine and the GObject introsepection framework.
+ .
+ This package contains the interactive console application.
+
 Package: compiz
 Version: 1:0.9.10+13.10.20131011-aaa
 Architecture: amd64
@@ -280,6 +443,89 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  removed to increase speed and stability, if not running under root
  privelages please use the regular debian package
 
+Package: gir1.2-cinnamondesktop-3.0
+Source: cinnamon-desktop
+Version: 2.0.4
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+ This package provides the include files and static library for the Cinnamon
+ desktop library functions.
+ .
+ This package contains the introspection data for CinnamonDesktop
+
+Package: gir1.2-muffin-3.0
+Source: muffin
+Version: 2.0.5
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the GObject introspection data which may be
+ used to generate dynamic bindings.
+
+Package: gir1.2-nemo-3.0
+Source: nemo
+Version: 2.0.8
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Nemo is the official file manager and graphical shell for the
+ Cinnamon desktop.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.
+
+Package: libcinnamon-control-center-dev
+Source: cinnamon-control-center
+Version: 2.0.9
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ This package contains the files needed to build Control Center panels
+
+Package: libcinnamon-control-center1
+Source: cinnamon-control-center
+Version: 2.0.9
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ This package contains the library used by Control Center panels
+
+Package: libcinnamon-desktop-dev
+Source: cinnamon-desktop
+Version: 2.0.4
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+ This package provides the include files and static library for the Cinnamon
+ desktop library functions.
+
+Package: libcinnamon-desktop0
+Source: cinnamon-desktop
+Version: 2.0.4
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+ This library is used by Cinnamon to load the .desktop files.
+
+Package: libcjs-dev
+Source: cjs
+Version: 2.0.0
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Makes it possible for applications to use all of GNOME's platform
+ libraries using the Javascript language. It's mainly based on the
+ Mozilla javascript engine and the GObject introspection framework.
+ .
+ This package contains the development files applications need to
+ build against.
+
+Package: libcjs0c
+Source: cjs
+Version: 2.0.0
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Makes it possible for applications to use all of GNOME's platform
+ libraries using the Javascript language. It's mainly based on the
+ Mozilla javascript engine and the GObject introspection framework.
+ .
+ This is the shared library applications link to.
+
 Package: libcompizconfig0
 Source: compiz
 Version: 1:0.9.10+13.10.20131011-aaa
@@ -346,6 +592,110 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  The purpose of these patches is to provide the nicest font rendering of any
  operating system. The second goal is to provide customization so that the
  end user is able to adjust the settings to his or her taste.
+
+Package: libmuffin-dev
+Source: muffin
+Version: 2.0.5
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the development files.
+
+Package: libmuffin0
+Source: muffin
+Version: 2.0.5
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the window manager shared library.
+
+Package: libnemo-extension-dev
+Source: nemo
+Version: 2.0.8
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Nemo is the official file manager and graphical shell for the
+ Cinnamon desktop.
+ .
+ This package provides the necessary development libraries and include
+ files to develop and compile Nemo extensions.
+
+Package: libnemo-extension1
+Source: nemo
+Version: 2.0.8
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Nemo is the official file manager and graphical shell for the
+ Cinnamon desktop.
+ .
+ This package contains a few runtime libraries needed by nemo' extensions.
+
+Package: muffin
+Version: 2.0.5
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the core binaries.
+
+Package: muffin-common
+Source: muffin
+Version: 2.0.5
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the shared files.
+
+Package: muffin-dbg
+Source: muffin
+Version: 2.0.5
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the debugging symbols.
+
+Package: nemo
+Version: 2.0.8
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Nemo is the official file manager for the Cinnamon desktop. It allows
+ to browse directories, preview files and launch applications associated
+ with them. It is also responsible for handling the icons on the Cinnamon
+ desktop. It works on local and remote filesystems.
+ .
+ Several icon themes and components for viewing different kinds of files
+ are available in separate packages.
+
+Package: nemo-data
+Source: nemo
+Version: 2.0.8
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+ Nemo is the official file manager and graphical shell for the
+ Cinnamon desktop.
+ .
+ This package contains pictures, localization files and other data
+ needed by nemo.
+
+Package: nemo-dbg
+Source: nemo
+Version: 2.0.8
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+ Nemo is the official file manager for the Cinnamon desktop. It allows
+ to browse directories, preview files and launch applications associated
+ with them. It is also responsible for handling the icons on the Cinnamon
+ desktop. It works on local and remote filesystems.
+ .
+ Several icon themes and components for viewing different kinds of files
+ are available in separate packages.
+ .
+ This development package contains unstripped binaries compiled with
+ debugging symbols needed by gdb.
 
 Package: pup-volume-monitor
 Version: 0.1.15-aaa
