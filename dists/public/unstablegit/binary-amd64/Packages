@@ -1,0 +1,947 @@
+Package: cinnamon
+Version: 2.0.14+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 2843
+Depends: gir1.2-clutter-1.0, gir1.2-glib-2.0, gir1.2-gmenu-3.0, gir1.2-gtk-3.0, gir1.2-muffin-3.0, gir1.2-networkmanager-1.0, gir1.2-soup-2.4, cjs, gnome-bluetooth (>= 3.0.0), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.10.0), libcanberra0 (>= 0.2), libcinnamon-desktop0 (>= 2.0.4+git20131218aaa), libcjs0-libmozjs185-1.0, libcjs0c (>= 2.0.0+git20131218aaa), libclutter-1.0-0 (>= 1.10.0), libcogl-pango12 (>= 1.7.4), libcogl12 (>= 1.9.6), libcroco3 (>= 0.6.2), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libgirepository-1.0-1 (>= 0.9.2), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.35.9), libgnome-menu-3-0 (>= 3.2.0.1), libgstreamer0.10-0 (>= 0.10.20), libgtk-3-0 (>= 3.0.0), libmozjs185-1.0 (>= 1.8.5-1.0.0+dfsg), libmuffin0, libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libstartup-notification0 (>= 0.11), libx11-6, libxfixes3 (>= 1:5.0), libxml2 (>= 2.7.4), dconf-gsettings-backend | gsettings-backend, cinnamon-common (= 2.0.14+git20131218aaa), cinnamon-translations, cinnamon-control-center | gnome-control-center, caribou, cups-pk-helper, cinnamon-settings-daemon, cinnamon-session, cinnamon-desktop-data (>= 1.0.0), gnome-icon-theme-symbolic (>= 2.91), gir1.2-accountsservice-1.0, gir1.2-gconf-2.0, gir1.2-gkbd-3.0, gir1.2-gnomebluetooth-1.0, gir1.2-polkit-1.0, gir1.2-upowerglib-1.0, gir1.2-gtkclutter-1.0, gir1.2-javascriptcoregtk-3.0, gir1.2-webkit-3.0, python, python-dbus, python-gconf, python-imaging, python-opencv, python-gtk2, python-pam, pkg-config, mesa-utils, python-lxml, gkbd-capplet, python-pyinotify, metacity, gnome-panel | tint2
+Recommends: gnome-themes-standard, gnome-terminal, nemo, cinnamon-screensaver, gnome-session-bin, gir1.2-cjsdbus-1.0, cinnamon-bluetooth
+Provides: notification-daemon, x-window-manager
+Homepage: http://cinnamon.linuxmint.com
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon/cinnamon_2.0.14+git20131218aaa_amd64.deb
+Size: 540510
+SHA256: cd1ea72036e250d382e1d87b9ab0c5500fdedb316c206921f367a53785269af8
+SHA1: a5bb4ea8bd6dacfb29b5e4fb547dc7814664814e
+MD5sum: c02b956e84b52bdae67171284cf75dea
+Description: Cinnamon desktop
+ Cinnamon redefines user interactions with the GNOME desktop.
+ In particular, it offers new paradigms for launching applications,
+ accessing documents, and organizing open windows in GNOME. Later, it
+ will introduce a new applets eco-system and offer new solutions for
+ other desktop features, such as notifications and contacts
+ management. Cinnamon is intended to replace functions handled
+ by the GNOME Panel and by the window manager in previous versions of
+ GNOME. Cinnamon has rich visual effects enabled by new
+ graphical technologies.
+
+Package: cinnamon-bluetooth
+Version: 3.8.2+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 135
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libcinnamon-control-center1 (>= 2.0.9+git20131218aaa), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.0), libgnome-bluetooth11 (>= 3.4.0), libgtk-3-0 (>= 3.4.2), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), cinnamon-control-center, cinnamon-settings-daemon, cinnamon-translations, gnome-bluetooth
+Replaces: cinnamon-common, cinnamon-control-center
+Homepage: http://www.github.com/linuxmint/cinnamon-bluetooth
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon-bluetooth/cinnamon-bluetooth_3.8.2+git20131218aaa_amd64.deb
+Size: 22556
+SHA256: 1d61ac118b3370f62b6e8b2918c5399fa9ebad5c9f517e2634003d4320573b38
+SHA1: e10f73a8408f95c688c578d9bff2de03794396be
+MD5sum: 4f56d8ba386b7ea571bfc3f0e35a003c
+Description: Gnome Bluetooth support for the Cinnamon desktop
+ This package contains a configuration module and an applet compatible with GNOME Bluetooth.
+
+Package: cinnamon-common
+Source: cinnamon
+Version: 2.0.14+git20131218aaa
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 3184
+Depends: dconf-gsettings-backend | gsettings-backend, python
+Breaks: cinnamon (<< 1.7.1)
+Replaces: cinnamon (<< 1.7.1)
+Homepage: http://cinnamon.linuxmint.com
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon/cinnamon-common_2.0.14+git20131218aaa_all.deb
+Size: 1562698
+SHA256: 54dc61e7e4cef286c7d7eac1e49d954c2ef4861c3698127e2f972202adec74d3
+SHA1: 0a691c1377bf37893d7c6b790357ad840ee4fcca
+MD5sum: b9cb8822aaa93f738b839f50c5ed9c70
+Description: Cinnamon desktop (Common data files)
+ Cinnamon redefines user interactions with the GNOME desktop.
+ In particular, it offers new paradigms for launching applications,
+ accessing documents, and organizing open windows in GNOME. Later, it
+ will introduce a new applets eco-system and offer new solutions for
+ other desktop features, such as notifications and contacts
+ management. Cinnamon is intended to replace functions handled
+ by the GNOME Panel and by the window manager in previous versions of
+ GNOME. Cinnamon has rich visual effects enabled by new
+ graphical technologies.
+ .
+ This package contains the architecture independent files needed by Cinnamon
+
+Package: cinnamon-control-center
+Version: 2.0.9+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 852
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libcinnamon-control-center1 (>= 2.0.9+git20131218aaa), libcinnamon-desktop0 (>= 2.0.4+git20131218aaa), libcolord1 (>= 0.1.29), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgnome-menu-3-0 (>= 3.2.0.1), libgnomekbd8 (>= 3.6.0), libgtk-3-0 (>= 3.4.1), libnm-glib4 (>= 0.9.4.0), libnm-gtk0 (>= 0.9.1.95), libnm-util2 (>= 0.9.4.0), libnotify4 (>= 0.7.3), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libupower-glib1 (>= 0.9.2), libx11-6, libxklavier16 (>= 5.1), libxml2 (>= 2.6.27), accountsservice, apg, desktop-file-utils, cinnamon-control-center-data (>= 2.0.9+git20131218aaa), cinnamon-desktop-data, gnome-icon-theme (>= 2.24), gnome-icon-theme-symbolic, gnome-menus (>= 2.12.0), cinnamon-settings-daemon, cinnamon-translations, libcanberra-pulse
+Recommends: cups-pk-helper, iso-codes, mesa-utils, mousetweaks, policykit-1-gnome
+Suggests: gstreamer0.10-pulseaudio, libcanberra-gtk-module, x11-xserver-utils
+Breaks: gnome-power-manager (<< 3.0)
+Homepage: http://www.github.com/linuxmint/cinnamon-control-center
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon-control-center/cinnamon-control-center_2.0.9+git20131218aaa_amd64.deb
+Size: 217812
+SHA256: 764a436e2cc54d2e89689bdfbc99c0e4cc7a6a6e25eb188ec687525def65f8c7
+SHA1: 2afe98d4d1d736b897a82243467215f8e88ae8f4
+MD5sum: 8a63ff4235dfc282e3a6d0c4a0d7627f
+Description: utilities to configure the Cinnamon desktop
+ This package contains configuration applets for the Cinnamon desktop,
+ allowing to set accessibility configuration, desktop fonts, keyboard
+ and mouse properties, sound setup, desktop theme and background, user
+ interface properties, screen resolution, and other Cinnamon parameters.
+
+Package: cinnamon-control-center-data
+Source: cinnamon-control-center
+Version: 2.0.9+git20131218aaa
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 1414
+Recommends: cinnamon-control-center (>= 2.0.9+git20131218aaa)
+Conflicts: cinnamon-capplets-data
+Breaks: gnome-power-manager (<< 3.2)
+Replaces: cinnamon-capplets-data, gdm (<< 3.0), gdm3 (<< 3.0), gnome-media-common (<< 2.91), gnome-power-manager (<< 3.2)
+Provides: cinnamon-capplets-data
+Homepage: http://www.github.com/linuxmint/cinnamon-control-center
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon-control-center/cinnamon-control-center-data_2.0.9+git20131218aaa_all.deb
+Size: 205302
+SHA256: 6c368b4502ebb850f582f32987481c6bcabc5198d78069a3fbfb11a93c7363e1
+SHA1: c1c623a55303a948bedebc3ee9a3cec45c990493
+MD5sum: 090b2bb10637a2c83f62ba741c84aac9
+Description: configuration applets for Cinnamon - data files
+ This package contains data files (icons, pixmaps, locales files) needed by
+ the configuration applets in the cinnamon-control-center package.
+
+Package: cinnamon-dbg
+Source: cinnamon
+Version: 2.0.14+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 2430
+Depends: cinnamon (= 2.0.14+git20131218aaa)
+Homepage: http://cinnamon.linuxmint.com
+Priority: extra
+Section: debug
+Filename: pool/unstablegit/c/cinnamon/cinnamon-dbg_2.0.14+git20131218aaa_amd64.deb
+Size: 624162
+SHA256: acebbbb0ca23610323291ae18729b0fbf6d2e4cba9b6d556d11425a81bd16dbc
+SHA1: 81eea9aba19a71910c4990324892e2386fbb3991
+MD5sum: 0f709a6ed9d2af5af6a9f0e5396e0ddb
+Description: Debugging symbols for the Cinnamon desktop
+ Cinnamon redefines user interactions with the GNOME desktop.
+ In particular, it offers new paradigms for launching applications,
+ accessing documents, and organizing open windows in GNOME. Later, it
+ will introduce a new applets eco-system and offer new solutions for
+ other desktop features, such as notifications and contacts
+ management. Cinnamon is intended to replace functions handled
+ by the GNOME Panel and by the window manager in previous versions of
+ GNOME. Cinnamon has rich visual effects enabled by new
+ graphical technologies.
+ .
+ This package contains the debugging symbols.
+
+Package: cinnamon-desktop-data
+Source: cinnamon-desktop
+Version: 2.0.4+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 665
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: gnome-desktop-data (<< 1:2.32.1-2)
+Replaces: gnome-desktop-data (<< 1:2.32.1-2)
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Filename: pool/unstablegit/c/cinnamon-desktop/cinnamon-desktop-data_2.0.4+git20131218aaa_all.deb
+Size: 127840
+SHA256: 726f6787189e678720657c6d2a5536d039398c9c7e1cffcfa488858540c38422
+SHA1: 2e4340078c59245f22ac7172eb217b83493aab48
+MD5sum: 50a55c01087672d0d32bb327ff07bfa0
+Description: Common files for Cinnamon desktop apps
+ This package includes some files that are shared between several Cinnamon
+ apps (internationalization files).
+
+Package: cinnamon-screensaver
+Version: 2.0.3+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 232
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.10.0), libcinnamon-desktop0 (>= 2.0.4+git20131218aaa), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgnomekbd8 (>= 3.6.0), libgtk-3-0 (>= 3.0.0), libpam0g (>= 0.99.7.1), libx11-6, libxext6, libxklavier16 (>= 5.0), libxxf86vm1, dbus-x11, gnome-icon-theme (>= 2.15.90), cinnamon-desktop-data (>= 1.0.0), cinnamon, cinnamon-translations
+Recommends: gnome-power-manager | xfce4-power-manager, libpam-gnome-keyring
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon-screensaver/cinnamon-screensaver_2.0.3+git20131218aaa_amd64.deb
+Size: 79986
+SHA256: a499f4e226852feee5acd92786df9b402b6698ae6a3d09341ad63d05b767eea4
+SHA1: 3e873373babb42669ddcf63b3a0c55a89d059f72
+MD5sum: 1d533ac1454f3dd0f190566b77fd0a84
+Description: Cinnamon screen saver and locker
+ cinnamon-screensaver is a screen saver and locker that aims to have simple,
+ sane and secure defaults, and be well integrated with the Cinnamon desktop.
+ .
+ It is designed to support, among other things:
+ .
+  * the ability to lock down configuration settings
+  * translation into other languages
+  * user switching
+Original-Maintainer: Guilherme de S. Pastore <gpastore@debian.org>
+
+Package: cinnamon-session
+Version: 2.0.6+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 359
+Depends: libc6 (>= 2.7), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.32), libgtk-3-0 (>= 3.0.0), libice6 (>= 1:1.0.0), libsm6, libupower-glib1 (>= 0.9.0), libx11-6, libxau6, libxcomposite1 (>= 1:0.3-1), libxext6, libxrender1, libxtst6, dconf-gsettings-backend | gsettings-backend, dbus-x11, cinnamon-desktop-data, cinnamon-session-common, consolekit, upower (>= 0.9.0)
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon-session/cinnamon-session_2.0.6+git20131218aaa_amd64.deb
+Size: 103056
+SHA256: 20baeb1885b71a42ac1a71256959fa14822be5be5eb5dfee1d20567e8db6f6ed
+SHA1: 8a5f5548a5ac756fbfcd6a0840ab02ea116ae4f3
+MD5sum: 80ac4389ef10cd0063621de20e0424f9
+Description: Cinnamon Session Manager - Minimal runtime
+ The Cinnamon Session Manager is in charge of starting the core components
+ of the Cinnamon desktop, and applications that should be launched at
+ login time. It also features a way to save and restore currently
+ running applications.
+ .
+ This package contains the binaries for the Cinnamon Session Manager, but
+ no startup scripts. It is meant for those willing to start
+ cinnamon-session by hand with the components of their choice, and for
+ applications such as MDM that use cinnamon-session internally.
+
+Package: cinnamon-session-common
+Source: cinnamon-session
+Version: 2.0.6+git20131218aaa
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 779
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon-session/cinnamon-session-common_2.0.6+git20131218aaa_all.deb
+Size: 141096
+SHA256: 66e0abb912103f8de12ee4a314c19bfdb269039b041526debae41f9b8ff35a57
+SHA1: 9c0d716b60823681c3920ab6c7d4a342480dedd8
+MD5sum: 80b733156dd0c6f6526120fa7c540158
+Description: Cinnamon Session Manager - common files
+ The Cinnamon Session Manager is in charge of starting the core components
+ of the Cinnamon desktop, and applications that should be launched at
+ login time. It also features a way to save and restore currently
+ running applications.
+ .
+ This package contains the translations, data files and startup scripts
+ which are common to the Cinnamon and Cinnamon fallback sessions.
+
+Package: cinnamon-settings-daemon
+Version: 2.0.8+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 6126
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libcinnamon-desktop0 (>= 2.0.4+git20131218aaa), libcolord1 (>= 0.1.31), libcomerr2 (>= 1.01), libcups2 (>= 1.6.0), libdbus-glib-1-2 (>= 0.88), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcrypt11 (>= 1.4.5), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgnomekbd8 (>= 3.6.0), libgnutls26 (>= 2.12.17-0), libgssapi-krb5-2 (>= 1.6.dfsg.2), libgtk-3-0 (>= 3.3.16), libgudev-1.0-0 (>= 146), libk5crypto3 (>= 1.6.dfsg.2), libkrb5-3 (>= 1.6.dfsg.2), liblcms2-2, libnotify4 (>= 0.7.3), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~1.9b1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpolkit-gobject-1-0 (>= 0.99), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libupower-glib1 (>= 0.9.9), libx11-6, libxext6, libxfixes3 (>= 1:4.0.1), libxi6 (>= 2:1.2.99.4), libxklavier16 (>= 5.0), zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend, gsettings-desktop-schemas (>= 3.3.90-0ubuntu2), nemo-data
+Recommends: pulseaudio, systemd-services
+Suggests: x11-xserver-utils, cinnamon-screensaver, metacity | x-window-manager
+Breaks: banshee (<< 0.13.2+dfsg-7), gnome-color-manager (<< 3.0), gnome-screensaver (<< 2.28.0), gnome-session (<< 2.24), rhythmbox (<< 0.11.5), totem (<< 2.22.0), unity-greeter (<< 0.2.1-0ubuntu1)
+Homepage: http://cinnamon.linuxmint.com
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon-settings-daemon/cinnamon-settings-daemon_2.0.8+git20131218aaa_amd64.deb
+Size: 927190
+SHA256: 1381f30c56b02e2f972d7598570781f0e4cf4406b0fbb7de53389463d4fbbaa7
+SHA1: e760efb1978a7a6bcb8188f3bbbed9a83cb0da2c
+MD5sum: 13a6311240394a6cd82fce2c842b5e81
+Description: daemon handling the Cinnamon session settings
+ This package contains the daemon which is responsible for setting the
+ various parameters of a Cinnamon session and the applications that run
+ under it. It handles the following kinds of settings:
+ .
+  * Keyboard: layout, accessibility options, shortcuts, media keys
+  * Clipboard management
+  * Theming: background, icons, GTK+ applications
+  * Cleanup of unused files
+  * Mouse: cursors, speed, accessibility options
+  * Startup of other daemons: screensaver, sound daemon
+  * Typing break
+ .
+ It also sets various application settings through X resources and
+ freedesktop.org XSETTINGS.
+
+Package: cinnamon-settings-daemon-dev
+Source: cinnamon-settings-daemon
+Version: 2.0.8+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 13
+Depends: libdbus-glib-1-dev (>= 0.74), libglib2.0-dev (>= 2.26.0)
+Homepage: http://cinnamon.linuxmint.com
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon-settings-daemon/cinnamon-settings-daemon-dev_2.0.8+git20131218aaa_amd64.deb
+Size: 4732
+SHA256: 1e80f13ad5940eb38b7fbc2496212ee1e405c058bcb4fa49ff119bd150f54188
+SHA1: 174f55b9630541398a2aceef73ec8a1955336322
+MD5sum: 5935adf263b5fe9eaa1235b3b0dd09af
+Description: Headers for building applications communicating with cinnamon-settings-daemon
+ This package contains header files required to build applications that
+ communicate with the Cinnamon settings daemon over D-Bus.
+
+Package: cinnamon-themes
+Version: 2013.11.25+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 538
+Priority: optional
+Section: universe/gnome
+Filename: pool/unstablegit/c/cinnamon-themes/cinnamon-themes_2013.11.25+git20131218aaa_all.deb
+Size: 145738
+SHA256: bd01e472b61b82ac6140d773ed581ae46c094de84fb53607f66c87c3c5822c1c
+SHA1: 90a44486a7cd77e00dfdb35a1af7a8cab9e01c15
+MD5sum: 6a3d71689003ab20b877d6da00ed23b8
+Description: Cinnamon themes
+ A collection of the best themes available for Cinnamon.
+
+Package: cinnamon-translations
+Version: 2.0.3+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 9318
+Replaces: cinnamon-common
+Priority: optional
+Section: admin
+Filename: pool/unstablegit/c/cinnamon-translations/cinnamon-translations_2.0.3+git20131218aaa_all.deb
+Size: 1412432
+SHA256: 25c63f610842bdac40b4f8dcd2c4b191870f6b61dbd8ca45be80555059986853
+SHA1: e6bb4ce874d7825a5c2bf381478fd760d3d25b1c
+MD5sum: ea84574337c3f29701b895b8ced1bf66
+Description: Translation files for the Cinnamon desktop
+ Translation files for the Cinnamon desktop.
+
+Package: cjs
+Version: 2.0.0+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 20
+Depends: libc6 (>= 2.2.5), libcjs0-libmozjs185-1.0, libcjs0c (>= 2.0.0+git20131218aaa), libglib2.0-0 (>= 2.32)
+Priority: optional
+Section: interpreters
+Filename: pool/unstablegit/c/cjs/cjs_2.0.0+git20131218aaa_amd64.deb
+Size: 9674
+SHA256: 7bf5eddaea06c58e189db2c0594100224a75385473a519a809b11c24960ffbbb
+SHA1: be0716f6dd8d95affb843709371a206192aaa478
+MD5sum: 6d2f843ee119e2f01cddf620118c9591
+Description: Mozilla-based javascript bindings for the GNOME platform
+ Makes it possible for applications to use all of GNOME's platform
+ libraries using the Javascript language. It's mainly based on the
+ Mozilla javascript engine and the GObject introsepection framework.
+ .
+ This package contains the interactive console application.
+
+Package: gir1.2-cinnamondesktop-3.0
+Source: cinnamon-desktop
+Version: 2.0.4+git20131218aaa
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 30
+Depends: gir1.2-glib-2.0, gir1.2-gtk-3.0, libcinnamon-desktop0 (>= 2.0.4+git20131218aaa)
+Priority: optional
+Section: introspection
+Filename: pool/unstablegit/c/cinnamon-desktop/gir1.2-cinnamondesktop-3.0_2.0.4+git20131218aaa_amd64.deb
+Size: 9978
+SHA256: 4c772ccb122f1d7eb2a6526689b7cf6877d15b0ab0ac591d3b709810a9e8043e
+SHA1: 76b9fbac2fcb909828e2ffaac5e0a31f819f408b
+MD5sum: c0e766a42ab7aba5662decdf36bff3ca
+Description: Introspection data for CinnamonDesktop
+ This package provides the include files and static library for the Cinnamon
+ desktop library functions.
+ .
+ This package contains the introspection data for CinnamonDesktop
+
+Package: gir1.2-muffin-3.0
+Source: muffin
+Version: 2.0.5+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 64
+Depends: gir1.2-cinnamondesktop-3.0, gir1.2-clutter-1.0, gir1.2-freedesktop, gir1.2-glib-2.0, gir1.2-gtk-3.0, libmuffin0, muffin-common
+Priority: optional
+Section: libs
+Filename: pool/unstablegit/m/muffin/gir1.2-muffin-3.0_2.0.5+git20131218aaa_amd64.deb
+Size: 16088
+SHA256: 106f2f0d9fee4fb7ee33435ad142038dfa4970f6224ba0b05d653e8c8643cf28
+SHA1: 63bb6305e8450449168a99422d9a94f620bbefa3
+MD5sum: de008a428d1b9c27eb4f409285cdc673
+Description: GObject introspection data for Muffin
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the GObject introspection data which may be
+ used to generate dynamic bindings.
+
+Package: gir1.2-nemo-3.0
+Source: nemo
+Version: 2.0.8+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 16
+Conflicts: gir1.0-nemo-3.0
+Replaces: gir1.0-nemo-3.0
+Homepage: http://www.github.com/linuxmint/nemo/
+Priority: optional
+Section: libdevel
+Filename: pool/unstablegit/n/nemo/gir1.2-nemo-3.0_2.0.8+git20131218aaa_amd64.deb
+Size: 6272
+SHA256: 207614998222581dcd2ad3c270c077623c37fed6dd551830caea9fcab2958920
+SHA1: 703fa8be8df253cc743e512288fc071c703da20e
+MD5sum: 4bb9b20a66baa52880483040f64a70ed
+Description: libraries for nemo components - gir bindings
+ Nemo is the official file manager and graphical shell for the
+ Cinnamon desktop.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.
+
+Package: libcinnamon-control-center-dev
+Source: cinnamon-control-center
+Version: 2.0.9+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 14
+Depends: libcinnamon-control-center1 (= 2.0.9+git20131218aaa)
+Homepage: http://www.github.com/linuxmint/cinnamon-control-center
+Priority: optional
+Section: libdevel
+Filename: pool/unstablegit/c/cinnamon-control-center/libcinnamon-control-center-dev_2.0.9+git20131218aaa_amd64.deb
+Size: 5302
+SHA256: e44f44d2fbca9b333ced11ee33249a8ac9833745f134b1c1dd3642bdc39881d5
+SHA1: 8f944803719db0d2e3c5046f2be441f8f80c0923
+MD5sum: 7991950919bcc4b4cfa3c28682151115
+Description: utilities to configure the Cinnamon desktop
+ This package contains the files needed to build Control Center panels
+
+Package: libcinnamon-control-center1
+Source: cinnamon-control-center
+Version: 2.0.9+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 31
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libcinnamon-desktop0 (>= 2.0.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.0), libgtk-3-0 (>= 3.4.1), libnotify4 (>= 0.7.3), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Homepage: http://www.github.com/linuxmint/cinnamon-control-center
+Priority: optional
+Section: libs
+Filename: pool/unstablegit/c/cinnamon-control-center/libcinnamon-control-center1_2.0.9+git20131218aaa_amd64.deb
+Size: 11000
+SHA256: ac29088c565b3a6cf43a5d4bf806bc53b73664fa1fa9cdc7275f0f38e5942cf0
+SHA1: 560f0572cc386d5d98d768b3759b4fda9e13505d
+MD5sum: 5970d35b850742b2d63c2b0ad1b2badc
+Description: utilities to configure the Cinnamon desktop
+ This package contains the library used by Control Center panels
+
+Package: libcinnamon-desktop-dev
+Source: cinnamon-desktop
+Version: 2.0.4+git20131218aaa
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 190
+Depends: libcinnamon-desktop0 (= 2.0.4+git20131218aaa), gir1.2-cinnamondesktop-3.0 (= 2.0.4+git20131218aaa), libgtk-3-dev (>= 3.3.6), libxkbfile-dev
+Priority: optional
+Section: libdevel
+Filename: pool/unstablegit/c/cinnamon-desktop/libcinnamon-desktop-dev_2.0.4+git20131218aaa_amd64.deb
+Size: 22004
+SHA256: aaa2e65dd6d1dcd0ee08aff123ada46934c0b71de347763efdcf095d72f075fb
+SHA1: 122723965d4cce8eb03bbf2e437727d8eaf9f5be
+MD5sum: 495bc3fd9f9d6d3e9a88eaf326e74ab6
+Description: Utility library for loading .desktop files - development files
+ This package provides the include files and static library for the Cinnamon
+ desktop library functions.
+
+Package: libcinnamon-desktop0
+Source: cinnamon-desktop
+Version: 2.0.4+git20131218aaa
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 206
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.10.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.32), libgtk-3-0 (>= 3.3.16), libx11-6, libxext6, libxkbfile1, libxrandr2 (>= 2:1.2.99.3), cinnamon-desktop-data (>= 2.0.4+git20131218aaa)
+Recommends: hwdata (>= 0.227-1)
+Priority: optional
+Section: libs
+Filename: pool/unstablegit/c/cinnamon-desktop/libcinnamon-desktop0_2.0.4+git20131218aaa_amd64.deb
+Size: 67996
+SHA256: 61670183b8f3098577b66a4a83c0c17d822efd3a4fa26400e6ad6932b2a180f6
+SHA1: bef089be43f5976db6abd9fbd2ef8cf30b3c0997
+MD5sum: 453b04fd7a93a8c2b48af976de172d1a
+Description: Utility library for loading .desktop files - runtime files
+ This library is used by Cinnamon to load the .desktop files.
+
+Package: libcjs-dev
+Source: cjs
+Version: 2.0.0+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 115
+Depends: libcjs0c (= 2.0.0+git20131218aaa), libgirepository1.0-dev, libmozjs185-dev, libdbus-1-dev
+Priority: optional
+Section: libdevel
+Filename: pool/unstablegit/c/cjs/libcjs-dev_2.0.0+git20131218aaa_amd64.deb
+Size: 19322
+SHA256: ebeb89666f42c45d32893fb80ce87022e4dbd57b74d61333737454c46e9b4fb8
+SHA1: 3aa4604a774cd2da71c25bc3bf893e0a96ce6868
+MD5sum: ee0a0b9c4bcf401b12bc13fc0d53204f
+Description: Mozilla-based javascript bindings for the GNOME platform
+ Makes it possible for applications to use all of GNOME's platform
+ libraries using the Javascript language. It's mainly based on the
+ Mozilla javascript engine and the GObject introspection framework.
+ .
+ This package contains the development files applications need to
+ build against.
+
+Package: libcjs0c
+Source: cjs
+Version: 2.0.0+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 698
+Depends: libc6 (>= 2.15), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.6.0), libdbus-1-3 (>= 1.2.16), libdbus-glib-1-2 (>= 0.78), libffi6 (>= 3.0.4), libgcc1 (>= 1:4.1.1), libgirepository-1.0-1 (>= 1.31.22), libglib2.0-0 (>= 2.32), libmozjs185-1.0 (>= 1.8.5-1.0.0+dfsg), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libstdc++6 (>= 4.1.1)
+Conflicts: libcjs0, libcjs0a
+Replaces: libcjs0, libcjs0a
+Provides: libcjs0-libmozjs185-1.0
+Priority: optional
+Section: libs
+Filename: pool/unstablegit/c/cjs/libcjs0c_2.0.0+git20131218aaa_amd64.deb
+Size: 178898
+SHA256: f969795fadddb9d70f31c7bc532ce67d511d85b763c2e10425163483d5805ed0
+SHA1: e974a202598dfdef87bfd2716f44be9bda28a81e
+MD5sum: 85a3ec6ba52bf258e20fc792d1489814
+Description: Mozilla-based javascript bindings for the GNOME platform
+ Makes it possible for applications to use all of GNOME's platform
+ libraries using the Javascript language. It's mainly based on the
+ Mozilla javascript engine and the GObject introspection framework.
+ .
+ This is the shared library applications link to.
+
+Package: libmuffin-dev
+Source: muffin
+Version: 2.0.5+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 458
+Depends: muffin-common, libmuffin0 (= 2.0.5+git20131218aaa), gir1.2-muffin-3.0 (= 2.0.5+git20131218aaa), libclutter-1.0-dev (>= 1.0.0), libgtk-3-dev (>= 3.0.0)
+Priority: optional
+Section: libdevel
+Filename: pool/unstablegit/m/muffin/libmuffin-dev_2.0.5+git20131218aaa_amd64.deb
+Size: 47524
+SHA256: 1719c7ec0e10d60a5d40338cea6343a651f1deb55f1327eaea1b0dd123282597
+SHA1: 4da9ed8db0dcd925bc60ef38e5a54126257e4828
+MD5sum: 8acecc745bf04bf52f68a5567613bc6e
+Description: Development files for the Muffin window manager
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the development files.
+
+Package: libmuffin0
+Source: muffin
+Version: 2.0.5+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 765
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libcinnamon-desktop0 (>= 2.0.4), libclutter-1.0-0 (>= 1.10.0), libcogl-pango12 (>= 1.7.4), libcogl12 (>= 1.13.4), libegl1-mesa (>= 7.8.1) | libegl1-x11, libgdk-pixbuf2.0-0 (>= 2.22.0), libgirepository-1.0-1 (>= 0.9.2), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.8-1~), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 0.12.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsm6, libstartup-notification0 (>= 0.7), libx11-6 (>= 2:1.4.99.1), libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxinerama1, libxrandr2 (>= 2:1.2.99.3), libxrender1, muffin-common (= 2.0.5+git20131218aaa)
+Priority: optional
+Section: libs
+Filename: pool/unstablegit/m/muffin/libmuffin0_2.0.5+git20131218aaa_amd64.deb
+Size: 270914
+SHA256: 777c6ff8990d0856ee2b0c008b8b7aaa74dcdb478c92887442660aa018366dc6
+SHA1: a6070c3199a7b022b3eeaca5ab1b201c21d4735a
+MD5sum: 29e98fd3127187047323eb45c21883fe
+Description: window manager library from the Muffin window manager
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the window manager shared library.
+
+Package: libnemo-extension-dev
+Source: nemo
+Version: 2.0.8+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 323
+Depends: libnemo-extension1 (= 2.0.8+git20131218aaa), gir1.2-nemo-3.0 (= 2.0.8+git20131218aaa), libglib2.0-dev (>= 2.31.9), libgtk-3-dev (>= 3.3.18)
+Homepage: http://www.github.com/linuxmint/nemo/
+Priority: optional
+Section: libdevel
+Filename: pool/unstablegit/n/nemo/libnemo-extension-dev_2.0.8+git20131218aaa_amd64.deb
+Size: 28926
+SHA256: 4a591a8cf093d6224da6ca1c30202e0c505aa33bbbbeb9a0eb69603a43d92108
+SHA1: 09a4a2c600195b2e39ed73e61c4c5cf2e2eecdc1
+MD5sum: 334710c28f94055ab1e39585de632e90
+Description: libraries for nemo components - development version
+ Nemo is the official file manager and graphical shell for the
+ Cinnamon desktop.
+ .
+ This package provides the necessary development libraries and include
+ files to develop and compile Nemo extensions.
+
+Package: libnemo-extension1
+Source: nemo
+Version: 2.0.8+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 40
+Depends: libc6 (>= 2.2.5), libglib2.0-0 (>= 2.31.9), libgtk-3-0 (>= 3.0.0)
+Breaks: libnemo-extension1a
+Replaces: libnemo-extension1a
+Provides: libnemo-extension1a
+Homepage: http://www.github.com/linuxmint/nemo/
+Priority: optional
+Section: libs
+Filename: pool/unstablegit/n/nemo/libnemo-extension1_2.0.8+git20131218aaa_amd64.deb
+Size: 13388
+SHA256: 598362498527c6081cd7f59c4ac38b9d9df32a32e1368f2a84eb244417e68600
+SHA1: f84b396bff60aadd19709d25de1cfb2be2666d07
+MD5sum: d643142307c5b1dcb19ba9cbcc96e5dc
+Description: libraries for nemo components - runtime version
+ Nemo is the official file manager and graphical shell for the
+ Cinnamon desktop.
+ .
+ This package contains a few runtime libraries needed by nemo' extensions.
+
+Package: muffin
+Version: 2.0.5+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 87
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libcanberra-gtk3-0 (>= 0.25), libcanberra0 (>= 0.2), libcinnamon-desktop0 (>= 2.0.4), libclutter-1.0-0 (>= 1.10.0), libcogl-pango12 (>= 1.7.4), libcogl12 (>= 1.7.4), libegl1-mesa (>= 7.8.1) | libegl1-x11, libgdk-pixbuf2.0-0 (>= 2.22.0), libgirepository-1.0-1 (>= 0.9.2), libgl1-mesa-glx | libgl1, libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.8-1~), libice6 (>= 1:1.0.0), libjson-glib-1.0-0 (>= 0.12.0), libmuffin0, libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsm6, libstartup-notification0 (>= 0.2), libx11-6, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, muffin-common (= 2.0.5+git20131218aaa), zenity
+Suggests: gnome-themes, xdg-user-dirs
+Provides: x-window-manager
+Priority: optional
+Section: x11
+Filename: pool/unstablegit/m/muffin/muffin_2.0.5+git20131218aaa_amd64.deb
+Size: 23084
+SHA256: bff7c061c401c109aa81eb6144a14de725407767567b02c07626b6daf12e2c6a
+SHA1: c88b869d18a6adfa82e8f729b80d4abb27340e67
+MD5sum: 51276ee252bb8084ce3bbbf1c34d198d
+Description: Muffin window manager
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the core binaries.
+
+Package: muffin-common
+Source: muffin
+Version: 2.0.5+git20131218aaa
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 4734
+Depends: dconf-gsettings-backend | gsettings-backend, sgml-base (>= 1.26+nmu2)
+Priority: optional
+Section: misc
+Filename: pool/unstablegit/m/muffin/muffin-common_2.0.5+git20131218aaa_all.deb
+Size: 581526
+SHA256: f1908f6fd9560ecb396e16bbc075ef8b434f4bd63a231777abbed9f5bd609270
+SHA1: f9b55d6cd2ad5bb59eb42cb551d17e754b3e2158
+MD5sum: 0c4a2405e762fe041f78fc53c99e6b82
+Description: shared files for the Muffin window manager
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the shared files.
+
+Package: muffin-dbg
+Source: muffin
+Version: 2.0.5+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 2966
+Depends: libmuffin0 (= 2.0.5+git20131218aaa), muffin (= 2.0.5+git20131218aaa), muffin-common
+Priority: extra
+Section: debug
+Filename: pool/unstablegit/m/muffin/muffin-dbg_2.0.5+git20131218aaa_amd64.deb
+Size: 763946
+SHA256: 3e362f94508e285f54dfb89b1b4b431f3c5e834c586f580bd5ecec5add9bb4ff
+SHA1: e368290d9fc144052e4c3658c12af6e106678162
+MD5sum: d6a31c4172b3a8439e14ca5c5ae7f567
+Description: Debugging symbols for the Muffin window manager
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the debugging symbols.
+
+Package: nemo
+Version: 2.0.8+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 2297
+Depends: libatk1.0-0 (>= 1.32.0), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libcinnamon-desktop0 (>= 2.0.4+git20131218aaa), libexempi3 (>= 2.2.0), libexif12, libgail-3-0 (>= 3.0.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.3.18), libnemo-extension1, libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.20.0), libpangocairo-1.0-0 (>= 1.14.0), libx11-6, libxml2 (>= 2.7.4), nemo-data (= 2.0.8+git20131218aaa), shared-mime-info (>= 0.50), desktop-file-utils (>= 0.7), gvfs (>= 1.3.2) | pup-volume-monitor, libglib2.0-data, cinnamon-desktop-data, cinnamon-translations, cinnamon
+Recommends: eject, librsvg2-common, gvfs-backends, nemo-fileroller
+Suggests: eog, evince | pdf-viewer, totem | mp3-decoder, xdg-user-dirs
+Breaks: gnome-bluetooth (<< 3.0), gnome-session (<< 2.28), gnome-volume-manager (<< 2.24), rhythmbox (<< 0.12)
+Homepage: http://www.github.com/linuxmint/nemo/
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/n/nemo/nemo_2.0.8+git20131218aaa_amd64.deb
+Size: 664864
+SHA256: 326fa59b9f15641e3e6ccd30d1fb2e69e9958173fb6ad87851fd081bf0eb54f2
+SHA1: c675397737efed1607abcdc84fc9de2355a7c501
+MD5sum: 5e62aa89a1e55997940a03e516f01f77
+Description: file manager and graphical shell for Cinnamon
+ Nemo is the official file manager for the Cinnamon desktop. It allows
+ to browse directories, preview files and launch applications associated
+ with them. It is also responsible for handling the icons on the Cinnamon
+ desktop. It works on local and remote filesystems.
+ .
+ Several icon themes and components for viewing different kinds of files
+ are available in separate packages.
+
+Package: nemo-compare
+Version: 2.0.0+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 20
+Depends: nemo (>= 1), python-nemo (>= 1.0), python-xdg, python, meld
+Suggests: kdiff3 | kdiff3-qt, diffuse, kompare, fldiff, tkdiff
+Homepage: https://launchpad.net/nemo-compare
+Priority: extra
+Section: gnome
+Filename: pool/unstablegit/n/nemo-compare/nemo-compare_2.0.0+git20131218aaa_all.deb
+Size: 8066
+SHA256: 460161cdcb1c04d672bd9ee86ec1fee32dc77336dc926df9ddad645cf1d60252
+SHA1: be013b5cb700736297badcc39ec1eb415acc6b15
+MD5sum: 55c7c94c4480f138cc58b447a1897108
+Description: Context menu comparison extension for Nemo file manager
+ Simple context menu file comparison extension for Nemo 3 and above,
+ inspired by the discontinued 'diff-ext' extension. By default it uses
+ 'meld' to do the comparison and provides "Compare", "Compare to ~/foo/bar"
+ and "Compare Later" in Nemo context menu. Using the configurator tool
+ you can choose your favourite compare tool for one-on-one, three-way and
+ multi-compare situations.
+
+Package: nemo-data
+Source: nemo
+Version: 2.0.8+git20131218aaa
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 119
+Depends: dconf-gsettings-backend | gsettings-backend
+Suggests: nemo
+Homepage: http://www.github.com/linuxmint/nemo/
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/n/nemo/nemo-data_2.0.8+git20131218aaa_all.deb
+Size: 30234
+SHA256: d927dd286bd9bd3c04c4d1f6a57d8e8288e8fc9cf3457b828f929a69a232f444
+SHA1: 0aaf327384e367f7ad171ca3dd6d9dcfe6365046
+MD5sum: b8aeb4f0f67a06d66557f2f0c92bc267
+Description: data files for nemo
+ Nemo is the official file manager and graphical shell for the
+ Cinnamon desktop.
+ .
+ This package contains pictures, localization files and other data
+ needed by nemo.
+
+Package: nemo-dbg
+Source: nemo
+Version: 2.0.8+git20131218aaa
+Architecture: amd64
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 9185
+Depends: nemo (= 2.0.8+git20131218aaa)
+Replaces: libnemo-extension1-dbg
+Homepage: http://www.github.com/linuxmint/nemo/
+Priority: extra
+Section: debug
+Filename: pool/unstablegit/n/nemo/nemo-dbg_2.0.8+git20131218aaa_amd64.deb
+Size: 2036882
+SHA256: 66bf551992da2184d8b0e63d01c0368562f0860c94641bcba0149a2753ee52f5
+SHA1: a3916dc9b04e1cb40584b13a7402c1d487390db5
+MD5sum: 2413f6e4622c9f57ab104e54c50e55b9
+Description: file manager and graphical shell for Cinnamon - debugging version
+ Nemo is the official file manager for the Cinnamon desktop. It allows
+ to browse directories, preview files and launch applications associated
+ with them. It is also responsible for handling the icons on the Cinnamon
+ desktop. It works on local and remote filesystems.
+ .
+ Several icon themes and components for viewing different kinds of files
+ are available in separate packages.
+ .
+ This development package contains unstripped binaries compiled with
+ debugging symbols needed by gdb.
+
+Package: nemo-dropbox
+Version: 2.0.1+git20131218aaa
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 222
+Depends: nemo, procps, python-gtk2 (>= 2.12), python-gpgme, policykit-1, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.3), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.0), libnemo-extension1, libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), python:any
+Conflicts: caja-dropbox, dropbox, nautilus-dropbox
+Replaces: dropbox
+Provides: dropbox
+Homepage: http://www.dropbox.com/
+Priority: optional
+Section: non-free/gnome
+Filename: pool/unstablegit/n/nemo-dropbox/nemo-dropbox_2.0.1+git20131218aaa_amd64.deb
+Size: 90848
+SHA256: f04ba07bc2ba0bc02321dce8b5fc109417f56427bea7817a22c070c782260d36
+SHA1: 0a3508c540a75f2ae39264030baa164097957a55
+MD5sum: af89ca2f4ced8ebb52d3670248bd8d73
+Description: Dropbox integration for Nemo
+ Nemo Dropbox is an extension that integrates the Dropbox web service with
+ your Cinnamon Desktop.
+ .
+ Installing this package will download the proprietary dropbox binary
+ from dropbox.com.
+
+Package: nemo-fileroller
+Version: 2.0.0+git20131218aaa
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 18
+Depends: nemo, procps, file-roller, python-gtk2 (>= 2.12), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.2.5), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.18.0), libgtk-3-0 (>= 3.0.0), libnemo-extension1, libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0)
+Priority: optional
+Section: non-free/gnome
+Filename: pool/unstablegit/n/nemo-fileroller/nemo-fileroller_2.0.0+git20131218aaa_amd64.deb
+Size: 6244
+SHA256: ddabf685a66a14b471a49a08120d4a039c8a942cdf708d32adf2ec138b5bc5de
+SHA1: 473211c223502ffc7f23b05ed643d3e505bafa1e
+MD5sum: d97f6c98e63899216900300ca3142992
+Description: File Roller integration for Nemo
+ Nemo File Roller is an extension that integrates the File Roller service with
+ your Cinnamon Desktop.
+
+Package: nemo-gtkhash
+Version: 0.7.0~1+git20131218aaa
+Architecture: amd64
+Maintainer: Mònica Ramírez Arceda <monica@debian.org>
+Installed-Size: 95
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.8), libgtk-3-0 (>= 3.0.0), libmhash2, libnemo-extension1, libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), zlib1g (>= 1:1.1.4), dconf-gsettings-backend | gsettings-backend
+Breaks: gtkhash (<< 0.6.0)
+Replaces: gtkhash (<< 0.6.0)
+Homepage: http://gtkhash.sourceforge.net
+Priority: optional
+Section: utils
+Filename: pool/unstablegit/n/nemo-gtkhash/nemo-gtkhash_0.7.0~1+git20131218aaa_amd64.deb
+Size: 31608
+SHA256: 27f679c73c02e2d03cd8d241d8fa4fad6a52941d4f6548e5ab58c2de1ed7d290
+SHA1: 8f9e5ffb4b52cfd7c15e79b71d77f42095d866bf
+MD5sum: baccedb11f41215d568c7cf576d01ad6
+Description: nemo extension for computing checksums and more using gtkhash
+ The GtkHash extension for nemo which allows users to compute
+ message digests or checksums using the mhash library.
+ Currently supported hash functions include MD5, MD6, SHA1,
+ SHA256, SHA512, RIPEMD, TIGER and WHIRLPOOL.
+
+Package: nemo-media-columns
+Version: 2.0.0+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 13
+Depends: python-nemo, python-mutagen, python-pyexiv2, python-kaa-metadata, libnemo-extension1a, python-pypdf
+Priority: extra
+Section: gnome
+Filename: pool/unstablegit/n/nemo-media-columns/nemo-media-columns_2.0.0+git20131218aaa_all.deb
+Size: 4764
+SHA256: 1ca39a3943cc5daf3432ba7b3e95f3dd3bde509af1d1698d33453e553f2db307
+SHA1: 5e17141ab1c00313b907d0776f6a86bbc916aaa9
+MD5sum: 7896f28b35f8cb88764e9b1eebd9201e
+Description: Nemo Extension
+ A Nemo extension to display music/EXIF and PDF metadata info in the Nemo List View.
+
+Package: nemo-pastebin
+Version: 2.0.0+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 86
+Depends: nemo, pastebinit, python-gi, python-nemo, dconf-gsettings-backend | gsettings-backend, python (>= 2.7), python (<< 2.8)
+Recommends: gir1.2-notify-0.7
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/n/nemo-pastebin/nemo-pastebin_2.0.0+git20131218aaa_all.deb
+Size: 20324
+SHA256: f41eb015818081183db5482ea1dc75ca5d379a1cccf07fb34d288c6044fc94ed
+SHA1: 1e372c9bc8843412728c4e7655933dd21a49711f
+MD5sum: 7091bf2c2860ed37fa44d60354a40337
+Description: Nemo extension to send files to a pastebin
+ nemo-pastebin is a Nemo extension written in Python, which
+ allows users to upload text-only files to a pastebin service just
+ by right-clicking on them.
+ .
+ After sending the files, a notification will be shown and the paste
+ URL copied into the clipboard.
+ .
+ Users can also customize the extension's behaviour just by using
+ nemo-pastebin-configurator, an easy-to-use configuration tool.
+
+Package: nemo-rabbitvcs
+Version: 2.0.0+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 26
+Depends: nemo (>= 1.1.2~), python-nemo (>= 1.0~), python-gi (>= 3.2.2~), rabbitvcs-core (>= 0.15)
+Homepage: https://github.com/linuxmint/nemo-extensions
+Priority: optional
+Section: devel
+Filename: pool/unstablegit/n/nemo-rabbitvcs/nemo-rabbitvcs_2.0.0+git20131218aaa_all.deb
+Size: 8350
+SHA256: fdd5025fd4090c4a108bcd44775e48df0c041f37eed37a37d227af5ca9f775d9
+SHA1: e0a37347c1e707372b0dbf7edf79dfc5da80ec68
+MD5sum: 04ef7898455915210edce0094c62785b
+Description: Nemo extension for RabbitVCS
+ RabbitVCS is a set of graphical tools written to provide simple and
+ straightforward access to the version control systems SVN (Subversion) and Git.
+ This is the extension for the Nemo file manager (v1.1.2 or greater).
+
+Package: nemo-share
+Version: 2.0.0+git20131218aaa
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 276
+Depends: nemo, samba-common (>= 3.0.27a), samba-common-bin | samba-common (<< 2:3.4.0~pre2-1~0), gnome-session-bin, apturl, libc6 (>= 2.7), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.0.0), libnemo-extension1
+Suggests: samba (>= 3.0.27a)
+Enhances: nemo
+Homepage: http://gentoo.ovibes.net/nemo-share/
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/n/nemo-share/nemo-share_2.0.0+git20131218aaa_amd64.deb
+Size: 57568
+SHA256: 389ac38150db22a99a7dac12ef70dc61c5f0d20de9105b979d5813ab1b111f3a
+SHA1: 18ddc8490f1f82d0479eeee089ae7bb7392c6de9
+MD5sum: 87e6a807fb95c53a2e964c2c2909ceca
+Description: Nemo extension to share folder using Samba
+ Nemo Share allows you to quickly share a folder from
+ the GNOME Nemo file manager without requiring root access.
+
+Package: nemo-terminal
+Version: 1.0.1+git20131218aaa
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 39
+Depends: dconf-gsettings-backend | gsettings-backend, nemo (>= 2.0.2), python (>= 2.6), python-nemo (>= 1.0), python-gi (>= 3.2.2~), gir1.2-vte-2.90 (>= 1:0.34.6~), gir1.2-gtk-3.0 (>= 3.8.4~), gir1.2-gdkpixbuf-2.0 (>= 2.28.1~), gir1.2-glib-2.0 (>= 1.38.0~)
+Homepage: https://github.com/linuxmint/nemo-extensions
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/n/nemo-terminal/nemo-terminal_1.0.1+git20131218aaa_amd64.deb
+Size: 19840
+SHA256: b7a44f5e33f03dc37cfbdeda109e07e5aa2b45258f610d39ea464b2c8d633cf5
+SHA1: b1c258a5e01d48aed52620502454db799c0486cb
+MD5sum: ac823e0bdde5219535171077c337640b
+Description: Nemo extension to enable an embedded terminal
+ Nemo Terminal is an embedded terminal for Nemo, the Cinnamon file manager.
+ It embeds a terminal pane into Nemo that is accessible by hotkey (default F4)
+ and automatically follows the currently active directory in Nemo.
+
+Package: python-nemo
+Source: nemo-python
+Version: 2.0.0+git20131218aaa
+Architecture: amd64
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 37
+Depends: libc6 (>= 2.2.5), libglib2.0-0 (>= 2.16.0), libgtk-3-0 (>= 3.0.0), libnemo-extension1, libpython2.7 (>= 2.7), python-gi (>= 3.0), gir1.2-nemo-3.0
+Priority: optional
+Section: python
+Filename: pool/unstablegit/n/nemo-python/python-nemo_2.0.0+git20131218aaa_amd64.deb
+Size: 13778
+SHA256: 598ac6e44c19c734a03148fec9baf28ab68da3374b9bc276ba6acae6e70127e1
+SHA1: 6840ebd5654af2527307651d4d72842a20a7567c
+MD5sum: cf90b8b4f939a8461f598a91ac85265e
+Description: Python binding for Nemo components
+ Python binding for Nemo, to allow Nemo property page and menu item
+ extensions to be written in Python.
+

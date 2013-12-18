@@ -1,0 +1,252 @@
+Package: cinnamon-common
+Source: cinnamon
+Version: 2.0.14+git20131218aaa
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 3184
+Depends: dconf-gsettings-backend | gsettings-backend, python
+Breaks: cinnamon (<< 1.7.1)
+Replaces: cinnamon (<< 1.7.1)
+Homepage: http://cinnamon.linuxmint.com
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon/cinnamon-common_2.0.14+git20131218aaa_all.deb
+Size: 1562698
+SHA256: 54dc61e7e4cef286c7d7eac1e49d954c2ef4861c3698127e2f972202adec74d3
+SHA1: 0a691c1377bf37893d7c6b790357ad840ee4fcca
+MD5sum: b9cb8822aaa93f738b839f50c5ed9c70
+Description: Cinnamon desktop (Common data files)
+ Cinnamon redefines user interactions with the GNOME desktop.
+ In particular, it offers new paradigms for launching applications,
+ accessing documents, and organizing open windows in GNOME. Later, it
+ will introduce a new applets eco-system and offer new solutions for
+ other desktop features, such as notifications and contacts
+ management. Cinnamon is intended to replace functions handled
+ by the GNOME Panel and by the window manager in previous versions of
+ GNOME. Cinnamon has rich visual effects enabled by new
+ graphical technologies.
+ .
+ This package contains the architecture independent files needed by Cinnamon
+
+Package: cinnamon-control-center-data
+Source: cinnamon-control-center
+Version: 2.0.9+git20131218aaa
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 1414
+Recommends: cinnamon-control-center (>= 2.0.9+git20131218aaa)
+Conflicts: cinnamon-capplets-data
+Breaks: gnome-power-manager (<< 3.2)
+Replaces: cinnamon-capplets-data, gdm (<< 3.0), gdm3 (<< 3.0), gnome-media-common (<< 2.91), gnome-power-manager (<< 3.2)
+Provides: cinnamon-capplets-data
+Homepage: http://www.github.com/linuxmint/cinnamon-control-center
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon-control-center/cinnamon-control-center-data_2.0.9+git20131218aaa_all.deb
+Size: 205302
+SHA256: 6c368b4502ebb850f582f32987481c6bcabc5198d78069a3fbfb11a93c7363e1
+SHA1: c1c623a55303a948bedebc3ee9a3cec45c990493
+MD5sum: 090b2bb10637a2c83f62ba741c84aac9
+Description: configuration applets for Cinnamon - data files
+ This package contains data files (icons, pixmaps, locales files) needed by
+ the configuration applets in the cinnamon-control-center package.
+
+Package: cinnamon-desktop-data
+Source: cinnamon-desktop
+Version: 2.0.4+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 665
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: gnome-desktop-data (<< 1:2.32.1-2)
+Replaces: gnome-desktop-data (<< 1:2.32.1-2)
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Filename: pool/unstablegit/c/cinnamon-desktop/cinnamon-desktop-data_2.0.4+git20131218aaa_all.deb
+Size: 127840
+SHA256: 726f6787189e678720657c6d2a5536d039398c9c7e1cffcfa488858540c38422
+SHA1: 2e4340078c59245f22ac7172eb217b83493aab48
+MD5sum: 50a55c01087672d0d32bb327ff07bfa0
+Description: Common files for Cinnamon desktop apps
+ This package includes some files that are shared between several Cinnamon
+ apps (internationalization files).
+
+Package: cinnamon-session-common
+Source: cinnamon-session
+Version: 2.0.6+git20131218aaa
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 779
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/c/cinnamon-session/cinnamon-session-common_2.0.6+git20131218aaa_all.deb
+Size: 141096
+SHA256: 66e0abb912103f8de12ee4a314c19bfdb269039b041526debae41f9b8ff35a57
+SHA1: 9c0d716b60823681c3920ab6c7d4a342480dedd8
+MD5sum: 80b733156dd0c6f6526120fa7c540158
+Description: Cinnamon Session Manager - common files
+ The Cinnamon Session Manager is in charge of starting the core components
+ of the Cinnamon desktop, and applications that should be launched at
+ login time. It also features a way to save and restore currently
+ running applications.
+ .
+ This package contains the translations, data files and startup scripts
+ which are common to the Cinnamon and Cinnamon fallback sessions.
+
+Package: cinnamon-themes
+Version: 2013.11.25+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 538
+Priority: optional
+Section: universe/gnome
+Filename: pool/unstablegit/c/cinnamon-themes/cinnamon-themes_2013.11.25+git20131218aaa_all.deb
+Size: 145738
+SHA256: bd01e472b61b82ac6140d773ed581ae46c094de84fb53607f66c87c3c5822c1c
+SHA1: 90a44486a7cd77e00dfdb35a1af7a8cab9e01c15
+MD5sum: 6a3d71689003ab20b877d6da00ed23b8
+Description: Cinnamon themes
+ A collection of the best themes available for Cinnamon.
+
+Package: cinnamon-translations
+Version: 2.0.3+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 9318
+Replaces: cinnamon-common
+Priority: optional
+Section: admin
+Filename: pool/unstablegit/c/cinnamon-translations/cinnamon-translations_2.0.3+git20131218aaa_all.deb
+Size: 1412432
+SHA256: 25c63f610842bdac40b4f8dcd2c4b191870f6b61dbd8ca45be80555059986853
+SHA1: e6bb4ce874d7825a5c2bf381478fd760d3d25b1c
+MD5sum: ea84574337c3f29701b895b8ced1bf66
+Description: Translation files for the Cinnamon desktop
+ Translation files for the Cinnamon desktop.
+
+Package: muffin-common
+Source: muffin
+Version: 2.0.5+git20131218aaa
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 4734
+Depends: dconf-gsettings-backend | gsettings-backend, sgml-base (>= 1.26+nmu2)
+Priority: optional
+Section: misc
+Filename: pool/unstablegit/m/muffin/muffin-common_2.0.5+git20131218aaa_all.deb
+Size: 581526
+SHA256: f1908f6fd9560ecb396e16bbc075ef8b434f4bd63a231777abbed9f5bd609270
+SHA1: f9b55d6cd2ad5bb59eb42cb551d17e754b3e2158
+MD5sum: 0c4a2405e762fe041f78fc53c99e6b82
+Description: shared files for the Muffin window manager
+ Muffin is the window manager used by Cinnamon.
+ .
+ This package contains the shared files.
+
+Package: nemo-compare
+Version: 2.0.0+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 20
+Depends: nemo (>= 1), python-nemo (>= 1.0), python-xdg, python, meld
+Suggests: kdiff3 | kdiff3-qt, diffuse, kompare, fldiff, tkdiff
+Homepage: https://launchpad.net/nemo-compare
+Priority: extra
+Section: gnome
+Filename: pool/unstablegit/n/nemo-compare/nemo-compare_2.0.0+git20131218aaa_all.deb
+Size: 8066
+SHA256: 460161cdcb1c04d672bd9ee86ec1fee32dc77336dc926df9ddad645cf1d60252
+SHA1: be013b5cb700736297badcc39ec1eb415acc6b15
+MD5sum: 55c7c94c4480f138cc58b447a1897108
+Description: Context menu comparison extension for Nemo file manager
+ Simple context menu file comparison extension for Nemo 3 and above,
+ inspired by the discontinued 'diff-ext' extension. By default it uses
+ 'meld' to do the comparison and provides "Compare", "Compare to ~/foo/bar"
+ and "Compare Later" in Nemo context menu. Using the configurator tool
+ you can choose your favourite compare tool for one-on-one, three-way and
+ multi-compare situations.
+
+Package: nemo-data
+Source: nemo
+Version: 2.0.8+git20131218aaa
+Architecture: all
+Maintainer: Linux Mint <root@linuxmint.com>
+Installed-Size: 119
+Depends: dconf-gsettings-backend | gsettings-backend
+Suggests: nemo
+Homepage: http://www.github.com/linuxmint/nemo/
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/n/nemo/nemo-data_2.0.8+git20131218aaa_all.deb
+Size: 30234
+SHA256: d927dd286bd9bd3c04c4d1f6a57d8e8288e8fc9cf3457b828f929a69a232f444
+SHA1: 0aaf327384e367f7ad171ca3dd6d9dcfe6365046
+MD5sum: b8aeb4f0f67a06d66557f2f0c92bc267
+Description: data files for nemo
+ Nemo is the official file manager and graphical shell for the
+ Cinnamon desktop.
+ .
+ This package contains pictures, localization files and other data
+ needed by nemo.
+
+Package: nemo-media-columns
+Version: 2.0.0+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 13
+Depends: python-nemo, python-mutagen, python-pyexiv2, python-kaa-metadata, libnemo-extension1a, python-pypdf
+Priority: extra
+Section: gnome
+Filename: pool/unstablegit/n/nemo-media-columns/nemo-media-columns_2.0.0+git20131218aaa_all.deb
+Size: 4764
+SHA256: 1ca39a3943cc5daf3432ba7b3e95f3dd3bde509af1d1698d33453e553f2db307
+SHA1: 5e17141ab1c00313b907d0776f6a86bbc916aaa9
+MD5sum: 7896f28b35f8cb88764e9b1eebd9201e
+Description: Nemo Extension
+ A Nemo extension to display music/EXIF and PDF metadata info in the Nemo List View.
+
+Package: nemo-pastebin
+Version: 2.0.0+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 86
+Depends: nemo, pastebinit, python-gi, python-nemo, dconf-gsettings-backend | gsettings-backend, python (>= 2.7), python (<< 2.8)
+Recommends: gir1.2-notify-0.7
+Priority: optional
+Section: gnome
+Filename: pool/unstablegit/n/nemo-pastebin/nemo-pastebin_2.0.0+git20131218aaa_all.deb
+Size: 20324
+SHA256: f41eb015818081183db5482ea1dc75ca5d379a1cccf07fb34d288c6044fc94ed
+SHA1: 1e372c9bc8843412728c4e7655933dd21a49711f
+MD5sum: 7091bf2c2860ed37fa44d60354a40337
+Description: Nemo extension to send files to a pastebin
+ nemo-pastebin is a Nemo extension written in Python, which
+ allows users to upload text-only files to a pastebin service just
+ by right-clicking on them.
+ .
+ After sending the files, a notification will be shown and the paste
+ URL copied into the clipboard.
+ .
+ Users can also customize the extension's behaviour just by using
+ nemo-pastebin-configurator, an easy-to-use configuration tool.
+
+Package: nemo-rabbitvcs
+Version: 2.0.0+git20131218aaa
+Architecture: all
+Maintainer: Clement Lefebvre <root@linuxmint.com>
+Installed-Size: 26
+Depends: nemo (>= 1.1.2~), python-nemo (>= 1.0~), python-gi (>= 3.2.2~), rabbitvcs-core (>= 0.15)
+Homepage: https://github.com/linuxmint/nemo-extensions
+Priority: optional
+Section: devel
+Filename: pool/unstablegit/n/nemo-rabbitvcs/nemo-rabbitvcs_2.0.0+git20131218aaa_all.deb
+Size: 8350
+SHA256: fdd5025fd4090c4a108bcd44775e48df0c041f37eed37a37d227af5ca9f775d9
+SHA1: e0a37347c1e707372b0dbf7edf79dfc5da80ec68
+MD5sum: 04ef7898455915210edce0094c62785b
+Description: Nemo extension for RabbitVCS
+ RabbitVCS is a set of graphical tools written to provide simple and
+ straightforward access to the version control systems SVN (Subversion) and Git.
+ This is the extension for the Nemo file manager (v1.1.2 or greater).
+
