@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: compiz
 Binary: compiz, compiz-core, compiz-dev, compiz-gnome, compiz-plugins-default, compiz-plugins, libdecoration0, libdecoration0-dev, libcompizconfig0, libcompizconfig0-dev, python-compizconfig, compizconfig-settings-manager
 Architecture: any all
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 Uploaders: David Nusinow <dnusinow@debian.org>, Sean Finney <seanius@debian.org>, Cyril Brulebois <kibi@debian.org>
 Standards-Version: 3.9.3
@@ -23,10 +23,10 @@ Package-List:
  python-compizconfig deb python optional
 Checksums-Sha1: 
  d23561bb16a0d1a24c18697538531fea5233e971 5463654 compiz_0.9.10+13.10.20131011.orig.tar.gz
- b1e463aefeb35ca4c16458abae8cbd9da9f90803 106967 compiz_0.9.10+13.10.20131011-aaa.debian.tar.gz
+ 0ac5adac47365469245ae2b9ba3712a9407f18f6 108532 compiz_0.9.10+13.10.20131011-aaa1.debian.tar.gz
 Checksums-Sha256: 
  527eecd27c30d06b6b6ff87865b286532769a3e6e56ad5181002e4e31ab81d65 5463654 compiz_0.9.10+13.10.20131011.orig.tar.gz
- 001fcf0083531ebb8c49c44e7eef59c3d64cf4826557a4f2e3d71f0f5732c1c8 106967 compiz_0.9.10+13.10.20131011-aaa.debian.tar.gz
+ a50e0b18c0d316b4c966b3b45cd5e69bbdddd6d3525e5fe9d24f3946ba30fab4 108532 compiz_0.9.10+13.10.20131011-aaa1.debian.tar.gz
 Files: 
  54bb2d8debedc087bd2d2849cb5153ee 5463654 compiz_0.9.10+13.10.20131011.orig.tar.gz
- 2384d401c4867a6f1d05aa513a38207a 106967 compiz_0.9.10+13.10.20131011-aaa.debian.tar.gz
+ 960ee6b0f476f549ed6eadbd4c5fb946 108532 compiz_0.9.10+13.10.20131011-aaa1.debian.tar.gz

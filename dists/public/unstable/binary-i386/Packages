@@ -132,19 +132,19 @@ Description: Translation files for the Cinnamon desktop
 
 Package: compizconfig-settings-manager
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: all
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 Installed-Size: 4451
-Depends: python (>= 2.7), python (<< 2.8), python-compizconfig (>= 1:0.9.10+13.10.20131011-aaa), python-gtk2
+Depends: python (>= 2.7), python (<< 2.8), python-compizconfig (>= 1:0.9.10+13.10.20131011-aaa1), python-gtk2
 Recommends: compiz-plugins-default
 Priority: optional
 Section: x11
-Filename: pool/unstable/c/compiz/compizconfig-settings-manager_0.9.10+13.10.20131011-aaa_all.deb
-Size: 766822
-SHA256: 0ce359b81b0a74bf8b1549826b7e8dad7f1e74f38223b6535d5f6fcab17559a9
-SHA1: 9a6b9b32025eecffde0aba6f008720a1e67a4e61
-MD5sum: 6b7282b865d10b513e59b83611d68d67
+Filename: pool/unstable/c/compiz/compizconfig-settings-manager_0.9.10+13.10.20131011-aaa1_all.deb
+Size: 766572
+SHA256: 02785f1a11eb374fcec8543e8e2149e5b00537248e1d5b6fe1f6dfd84c795643
+SHA1: 0481e7c3ea2e17b827d140753087e64decdbae50
+MD5sum: 560014065371a0d363d3447e14844234
 Description: Compiz configuration settings manager
  The OpenCompositing Project brings 3D desktop visual effects that improve
  usability of the X Window System and provide increased productivity.
@@ -213,19 +213,19 @@ Description: graphical setup tool for the alternatives system
  program shipped with dpkg.
 
 Package: gdebi
-Version: 0.9.1-aaa
+Version: 0.9.2-aaa0
 Architecture: all
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 Installed-Size: 139
-Depends: python:any (>= 2.6.6-7~), gdebi-core (= 0.9.1-aaa), gir1.2-gtk-3.0, gir1.2-vte-2.90, python-gi, gnome-icon-theme
+Depends: python:any (>= 2.6.6-7~), gdebi-core (= 0.9.2-aaa0), gir1.2-gtk-3.0, gir1.2-vte-2.90, python-gi, gnome-icon-theme
 Recommends: libgtk2-perl, shared-mime-info
 Priority: optional
 Section: admin
-Filename: pool/unstable/g/gdebi/gdebi_0.9.1-aaa_all.deb
-Size: 38658
-SHA256: 30c470a4fca3530111ccb5d189b60e2eaf44d842a7728785b3cf9d0cb35c7b51
-SHA1: b4982160586c433b28f6e2bb7bb3e53f67ca59f5
-MD5sum: 243c5c8f5ae8be17ae0f920af885581a
+Filename: pool/unstable/g/gdebi/gdebi_0.9.2-aaa0_all.deb
+Size: 38668
+SHA256: 53a9a8bbfd054c9bccac613ef91025d6adf427b2a3cc8e57356ccab93a2edfa5
+SHA1: f058174ec004fa75ebed19765af20227df03706e
+MD5sum: b6945a0660dea7ba79f99cce71ea9be5
 Description: simple tool to install deb files - GNOME GUI
  gdebi lets you install local deb packages resolving and installing
  its dependencies. apt does the same, but only for remote (http, ftp)
@@ -239,7 +239,7 @@ Description: simple tool to install deb files - GNOME GUI
 
 Package: gdebi-core
 Source: gdebi
-Version: 0.9.1-aaa
+Version: 0.9.2-aaa0
 Architecture: all
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 Installed-Size: 694
@@ -247,11 +247,11 @@ Depends: python:any (>= 2.6.6-7~), python-apt (>= 0.7.97), python-debian (>= 0.1
 Suggests: xz-utils | xz-lzma
 Priority: optional
 Section: admin
-Filename: pool/unstable/g/gdebi/gdebi-core_0.9.1-aaa_all.deb
-Size: 126756
-SHA256: 53a06e3d46f3bad607a6a8b1375f0d8ebd0a4b3750752d838710ae9aea629468
-SHA1: f67b232cb6c0c30b5ea9cc0527a0c3c5840ac58e
-MD5sum: 8658db6167eba60b277d929bc8621808
+Filename: pool/unstable/g/gdebi/gdebi-core_0.9.2-aaa0_all.deb
+Size: 126724
+SHA256: 1990809cdd8f93340510e5b2741c77eeb3e4c48df2549f30b07f223a8f338911
+SHA1: 3a338d59c32cb93e6cd2f11cb260f84390395c84
+MD5sum: 959a3b47e239f28a82b0089f02286213
 Description: simple tool to install deb files
  gdebi lets you install local deb packages resolving and installing
  its dependencies. apt does the same, but only for remote (http, ftp)
@@ -265,19 +265,19 @@ Description: simple tool to install deb files
 
 Package: gdebi-kde
 Source: gdebi
-Version: 0.9.1-aaa
+Version: 0.9.2-aaa0
 Architecture: all
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 Installed-Size: 73
-Depends: python:any (>= 2.6.6-7~), gdebi-core (= 0.9.1-aaa), python-kde4, kdebase-runtime | kde-runtime | kdesudo
+Depends: python:any (>= 2.6.6-7~), gdebi-core (= 0.9.2-aaa0), python-kde4, kdebase-runtime | kde-runtime | kdesudo
 Recommends: shared-mime-info
 Priority: optional
 Section: admin
-Filename: pool/unstable/g/gdebi/gdebi-kde_0.9.1-aaa_all.deb
+Filename: pool/unstable/g/gdebi/gdebi-kde_0.9.2-aaa0_all.deb
 Size: 28008
-SHA256: 948549cdbdcefc8a8c490a02c1a78eda8c7aab35284046e7fac99d434de484e8
-SHA1: b6c3bacbecfa13f2dfd59e9dd14ef01a6870c7cd
-MD5sum: 79015cac526229c5aff0ef859bf573f7
+SHA256: 61e9948796a64ac3f30a9d8e1c3fae8eaa3bd9d50287776432e2c97935c76629
+SHA1: 14d49cd5847272e02a28e9f3b9290a7354211150
+MD5sum: abd0416a72f82235bdf84d1eece34917
 Description: simple tool to install deb files - KDE GUI
  gdebi lets you install local deb packages resolving and installing
  its dependencies. apt does the same, but only for remote (http, ftp)

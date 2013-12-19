@@ -260,7 +260,7 @@ Maintainer: Linux Mint <root@linuxmint.com>
  This package contains the interactive console application.
 
 Package: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  Compiz brings to life a variety of visual effects that make the Linux desktop
@@ -277,7 +277,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: compiz-core
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  Compiz brings to life a variety of visual effects that make the Linux desktop
@@ -296,7 +296,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: compiz-dev
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  Compiz brings to life a variety of visual effects that make the Linux desktop
@@ -311,7 +311,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: compiz-gnome
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  Compiz brings to life a variety of visual effects that make the Linux desktop
@@ -326,7 +326,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: compiz-plugins
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  Compiz brings to life a variety of visual effects that make the Linux desktop
@@ -341,7 +341,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: compiz-plugins-default
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  Compiz brings to life a variety of visual effects that make the Linux desktop
@@ -356,7 +356,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: compizconfig-settings-manager
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: all
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  The OpenCompositing Project brings 3D desktop visual effects that improve
@@ -373,6 +373,16 @@ Version: 0.4.0+git20131223-aaa
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  gpu acceleration to the existing *aaa pyrit packages.
+
+Package: emerald
+Version: 0.9.5-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+ This package provides a decorator for compiz-fusion and a themer application
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular emerald from ubuntu repositories.
+Original-Maintainer: Nicholas Thomas <lupine@beryl-project.org>
 
 Package: fontconfig-infinality
 Version: 1-aaa
@@ -400,7 +410,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  program shipped with dpkg.
 
 Package: gdebi
-Version: 0.9.1-aaa
+Version: 0.9.2-aaa0
 Architecture: all
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  gdebi lets you install local deb packages resolving and installing
@@ -415,7 +425,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: gdebi-core
 Source: gdebi
-Version: 0.9.1-aaa
+Version: 0.9.2-aaa0
 Architecture: all
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  gdebi lets you install local deb packages resolving and installing
@@ -430,7 +440,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: gdebi-kde
 Source: gdebi
-Version: 0.9.1-aaa
+Version: 0.9.2-aaa0
 Architecture: all
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  gdebi lets you install local deb packages resolving and installing
@@ -528,7 +538,7 @@ Maintainer: Linux Mint <root@linuxmint.com>
 
 Package: libcompizconfig0
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  The OpenCompositing Project brings 3D desktop visual effects that improve
@@ -543,7 +553,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: libcompizconfig0-dev
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  The OpenCompositing Project brings 3D desktop visual effects that improve
@@ -559,7 +569,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: libdecoration0
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  The window decoration library is responsible for drawing the window borders
@@ -571,7 +581,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: libdecoration0-dev
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  The window decoration library is responsible for drawing the window borders
@@ -583,6 +593,26 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  .
  The *aaa versions of this package are specially modified for debian and aaa
  if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: libemeraldengine-dev
+Source: emerald
+Version: 0.9.5-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+ This package contains the headers and development files needed to
+ build engines for emerald.
+ .
+ The *aaa versions of this package are specially modified for debian and aaa
+ if running a ubuntu box please use the regular emerald from ubuntu repositories.
+Original-Maintainer: Nicholas Thomas <lupine@beryl-project.org>
+
+Package: libemeraldengine0
+Source: emerald
+Version: 0.9.5-aaa
+Architecture: amd64
+Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
+ This package provides some engines for drawing decoration on compiz-fusion
+Original-Maintainer: Nicholas Thomas <lupine@beryl-project.org>
 
 Package: libfreetype-infinality6
 Source: freetype-infinality
@@ -724,7 +754,7 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 
 Package: python-compizconfig
 Source: compiz
-Version: 1:0.9.10+13.10.20131011-aaa
+Version: 1:0.9.10+13.10.20131011-aaa1
 Architecture: amd64
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  Compiz Fusion is the result of the re-unification of the Beryl-project

@@ -2,7 +2,7 @@ Format: 3.0 (quilt)
 Source: gdebi
 Binary: gdebi-core, gdebi, gdebi-kde
 Architecture: all
-Version: 0.9.1-aaa
+Version: 0.9.2-aaa0
 Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
 Uploaders: Luca Falavigna <dktrkranz@debian.org>, Michael Vogt <mvo@debian.org>
 Standards-Version: 3.9.4
@@ -13,11 +13,11 @@ Package-List:
  gdebi-core deb admin optional
  gdebi-kde deb admin optional
 Checksums-Sha1: 
- a97493e621c6d4767c4fe82a3f62428c574cce97 238995 gdebi_0.9.1.orig.tar.gz
- a2c07358949ed19f3cffa6d1edb569330f822091 16519 gdebi_0.9.1-aaa.debian.tar.gz
+ 00b134209ae04cee1ea07840ef1febfeaaa804a3 231839 gdebi_0.9.2.orig.tar.gz
+ af44130f4ceb10df06e6c43ff226345874c0d9f3 16407 gdebi_0.9.2-aaa0.debian.tar.gz
 Checksums-Sha256: 
- 6c2183a12f14e71cc4f5d9c945ea143967878032bd0341885f7fc9089dd6f0be 238995 gdebi_0.9.1.orig.tar.gz
- 66d0a7e95e60fea7c5ff845cdcf72c9e4e8743faa0c0338c69da45c44935c18c 16519 gdebi_0.9.1-aaa.debian.tar.gz
+ 2a562121f8de6c421fd52ce8a1bf7cfc0b377ee07c2d7bbd9eac2b5812bb24ab 231839 gdebi_0.9.2.orig.tar.gz
+ 437ffb1af3fc09f33c4dfd9456744704184926cb611f8160c6dff118aaba7641 16407 gdebi_0.9.2-aaa0.debian.tar.gz
 Files: 
- c6bec136dbed1559baf8cb10c4a7348c 238995 gdebi_0.9.1.orig.tar.gz
- 638c3fa5e1a407d00a808e1acc70d366 16519 gdebi_0.9.1-aaa.debian.tar.gz
+ 5e44a66811205f9e3d1464b70fd28476 231839 gdebi_0.9.2.orig.tar.gz
+ b7340a4bab65c007e2557f8c3982698d 16407 gdebi_0.9.2-aaa0.debian.tar.gz
