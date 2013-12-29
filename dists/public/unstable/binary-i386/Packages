@@ -331,3 +331,20 @@ Description: data files for nemo
  This package contains pictures, localization files and other data
  needed by nemo.
 
+Package: thunar-data
+Source: thunar
+Version: 1.6.3-1aaa0
+Architecture: all
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 4232
+Homepage: http://thunar.xfce.org
+Priority: optional
+Section: xfce
+Filename: pool/unstable/t/thunar/thunar-data_1.6.3-1aaa0_all.deb
+Size: 1002358
+SHA256: 5581718d5cfb44985c5931f55593a220a37809f5337b0f46ec95cc2863ddd549
+SHA1: a363a372d2ca2500e20386c8e81d5066d921ce7b
+MD5sum: e80dbb5106fd07177709b180500eb882
+Description: Provides thunar documentation, icons and translations
+ This package contains architecture-independent files for thunar.
+

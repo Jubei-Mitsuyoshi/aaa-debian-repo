@@ -1162,6 +1162,45 @@ Description: libraries for nemo components - runtime version
  .
  This package contains a few runtime libraries needed by nemo' extensions.
 
+Package: libthunarx-2-0
+Source: thunar
+Version: 1.6.3-1aaa0
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 241
+Pre-Depends: multiarch-support
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libexif12, libexo-1-0 (>= 0.5.0), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.33.14), libgtk2.0-0 (>= 2.20.0), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpcre3 (>= 8.10), libsm6, libx11-6, libxfce4ui-1-0 (>= 4.9.0), libxfce4util6 (>= 4.9.0), thunar-data (= 1.6.3-1aaa0)
+Homepage: http://thunar.xfce.org
+Priority: optional
+Section: libs
+Filename: pool/unstable/t/thunar/libthunarx-2-0_1.6.3-1aaa0_amd64.deb
+Size: 61890
+SHA256: 62a5b9b7d42f3e11385004743de5872c331bd3675f8649eba1e7b50af43064db
+SHA1: f526be7c810370662e38656712b5ecf5fa743495
+MD5sum: 98bc490b82c725bae5341048e2a9e96f
+Description: extension library for thunar
+ This package contains the Thunar extension library which permits adding new
+ features to the Thunar file manager.
+
+Package: libthunarx-2-dev
+Source: thunar
+Version: 1.6.3-1aaa0
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 38
+Depends: libthunarx-2-0 (= 1.6.3-1aaa0), thunar-data (= 1.6.3-1aaa0), libglib2.0-dev, libgtk2.0-dev
+Homepage: http://thunar.xfce.org
+Priority: optional
+Section: libdevel
+Filename: pool/unstable/t/thunar/libthunarx-2-dev_1.6.3-1aaa0_amd64.deb
+Size: 5918
+SHA256: d293a5f723591003719b19f488bc92e7b5691ef3cc0652d8ebb115aca9c32e0b
+SHA1: 9e1f527a49e377cc54c46c1780a40bfcba042880
+MD5sum: 9fc9b1fe8f5bd46becedcb03ebd92b2b
+Description: Development files for libthunarx
+ This package contains the headers and the static library for libthunarx,
+ the extension library used by thunar
+
 Package: muffin
 Version: 2.0.5
 Architecture: amd64
@@ -1371,6 +1410,67 @@ Description: Compizconfig bindings for python
  .
  The *aaa versions of this package are specially modified for debian and aaa
  if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: thunar
+Version: 1.6.3-1aaa0
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 808
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.6.0), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libexo-1-0 (>= 0.10.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24.0), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libnotify4 (>= 0.7.0), libpango-1.0-0 (>= 1.14.0), libsm6, libthunarx-2-0 (>= 1.1.0), libxfce4ui-1-0 (>= 4.9.0), libxfce4util6 (>= 4.9.0), libxfconf-0-2 (>= 4.6.0), thunar-data (= 1.6.3-1aaa0), desktop-file-utils, shared-mime-info, exo-utils
+Recommends: dbus-x11, libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), xfce4-panel (>= 4.9.2), xfce4-panel (<< 4.11), thunar-volman, tumbler, xdg-user-dirs, gvfs
+Suggests: thunar-archive-plugin, thunar-media-tags-plugin
+Breaks: thunar-data (<< 1.2.3-3)
+Replaces: thunar-data (<< 1.2.3-3)
+Homepage: http://thunar.xfce.org
+Priority: optional
+Section: xfce
+Filename: pool/unstable/t/thunar/thunar_1.6.3-1aaa0_amd64.deb
+Size: 255270
+SHA256: 0dbe90d0b6008a28062492506d79a28662661dad8d1eca04c7d0c37237daeff5
+SHA1: ef7da7c0d6e37eb18faf6984c7323ccca93e6549
+MD5sum: 48cf91d2deda9177384dee18ed9e509a
+Description: File Manager for Xfce
+ Thunar is the file manager designed to be the default file manager of Xfce 4.6
+ It has been designed to be fast and easy to use.
+ .
+ An Xfce plugin can manages the trash, if xfce4-panel is installed as well.
+ Please read README.Debian for volume management stuff.
+
+Package: thunar-data
+Source: thunar
+Version: 1.6.3-1aaa0
+Architecture: all
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 4232
+Homepage: http://thunar.xfce.org
+Priority: optional
+Section: xfce
+Filename: pool/unstable/t/thunar/thunar-data_1.6.3-1aaa0_all.deb
+Size: 1002358
+SHA256: 5581718d5cfb44985c5931f55593a220a37809f5337b0f46ec95cc2863ddd549
+SHA1: a363a372d2ca2500e20386c8e81d5066d921ce7b
+MD5sum: e80dbb5106fd07177709b180500eb882
+Description: Provides thunar documentation, icons and translations
+ This package contains architecture-independent files for thunar.
+
+Package: thunar-dbg
+Source: thunar
+Version: 1.6.3-1aaa0
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+Installed-Size: 2066
+Depends: thunar (= 1.6.3-1aaa0)
+Homepage: http://thunar.xfce.org
+Priority: extra
+Section: debug
+Filename: pool/unstable/t/thunar/thunar-dbg_1.6.3-1aaa0_amd64.deb
+Size: 1848360
+SHA256: f3dd1cac95010ba781f7283ccb79ef375e83880131f52a17bb725fa3becfb7b5
+SHA1: b04d3efb43574b080d5be59d3255b9efa7209431
+MD5sum: e59b0673c12b59e0c3ec40ee0685e286
+Description: debugging informations for thunar
+ This package contains debugging symbols for thunar and libthunarx, the file
+ manager and file management libraries for Xfce Desktop Environment.
 
 Package: timeshift
 Version: 1.2.7-aaa

@@ -662,6 +662,22 @@ Maintainer: Linux Mint <root@linuxmint.com>
  .
  This package contains a few runtime libraries needed by nemo' extensions.
 
+Package: libthunarx-2-0
+Source: thunar
+Version: 1.6.3-1aaa0
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+ This package contains the Thunar extension library which permits adding new
+ features to the Thunar file manager.
+
+Package: libthunarx-2-dev
+Source: thunar
+Version: 1.6.3-1aaa0
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+ This package contains the headers and the static library for libthunarx,
+ the extension library used by thunar
+
 Package: muffin
 Version: 2.0.5
 Architecture: amd64
@@ -767,6 +783,31 @@ Maintainer: Jubei Mitsuyoshi <jubei.house.of.five.masters@gmail.com>
  .
  The *aaa versions of this package are specially modified for debian and aaa
  if running a ubuntu box please use the regular compiz from ubuntu repositories.
+
+Package: thunar
+Version: 1.6.3-1aaa0
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+ Thunar is the file manager designed to be the default file manager of Xfce 4.6
+ It has been designed to be fast and easy to use.
+ .
+ An Xfce plugin can manages the trash, if xfce4-panel is installed as well.
+ Please read README.Debian for volume management stuff.
+
+Package: thunar-data
+Source: thunar
+Version: 1.6.3-1aaa0
+Architecture: all
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+ This package contains architecture-independent files for thunar.
+
+Package: thunar-dbg
+Source: thunar
+Version: 1.6.3-1aaa0
+Architecture: amd64
+Maintainer: Debian Xfce Maintainers <pkg-xfce-devel@lists.alioth.debian.org>
+ This package contains debugging symbols for thunar and libthunarx, the file
+ manager and file management libraries for Xfce Desktop Environment.
 
 Package: timeshift
 Version: 1.2.7-aaa
